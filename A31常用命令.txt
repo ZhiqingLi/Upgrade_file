@@ -1,0 +1,4 @@
+http://10.10.10.254/httpapi.asp?command=getprivatesyslog      //获取设备log
+http://192.168.199.152/httpapi.asp?command=alexadump          //获取上传到服务器的录音文件
+https://sh.linkplay.com:8015/svn/BtAlexa		       //BTAlexaSVN 地址
+https://sh.linkplay.com:8015/svn/public			//WIFi SVN地址

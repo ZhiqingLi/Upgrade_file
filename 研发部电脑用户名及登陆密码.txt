@@ -1,0 +1,12 @@
+yfa1    NArui781
+yfa2    NArui226
+yfa3    NArui826
+yfa4    NArui2489
+yfa5    NArui2490
+yfa6    NArui520
+yfa7    NArui526
+yfa8    NArui2491
+yfa9    NArui2499
+yfa10  NArui2459
+yfa21  NArui111
+

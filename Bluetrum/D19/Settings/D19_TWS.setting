@@ -111,8 +111,8 @@
         <add key="key_double_config_en" value="True" />
         <add key="dblkey_num0" value="PP/POWER" />
         <add key="dblkey_num1" value="P/P" />
-        <add key="dblkey_num2" value="VOL+/NEXT" />
-        <add key="dblkey_num3" value="VOL-/PREV" />
+        <add key="dblkey_num2" value="None" />
+        <add key="dblkey_num3" value="None" />
         <add key="dblkey_num4" value="PP/MODE" />
         <add key="pwrkey_config_en" value="True" />
         <add key="pwrkey_num0" value="None" />

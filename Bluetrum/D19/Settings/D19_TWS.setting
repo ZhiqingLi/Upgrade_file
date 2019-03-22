@@ -23,8 +23,8 @@
         <add key="sys_init_vol" value="5" />
         <add key="warning_volume" value="6" />
         <add key="osc_both_cap" value="0PF" />
-        <add key="osci_cap" value="23" />
-        <add key="osco_cap" value="23" />
+        <add key="osci_cap" value="29" />
+        <add key="osco_cap" value="29" />
         <add key="vddio_sel" value="10" />
         <add key="eq_dgb_spp_en" value="False" />
         <add key="eq_dgb_uart_en" value="False" />
@@ -45,7 +45,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="Carry Spk" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="41:42:00:00:01:54" />
+        <add key="bt_addr" value="41:42:00:00:01:5D" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="41:42:FF:FF:FF:FF" />
@@ -56,7 +56,7 @@
         <add key="bt_a2dp_vol_ctrl_en" value="True" />
         <add key="bt_sco_en" value="True" />
         <add key="bt_hfp_private_en" value="True" />
-        <add key="bt_hfp_ring_number_en" value="True" />
+        <add key="bt_hfp_ring_number_en" value="False" />
         <add key="bt_spp_en" value="True" />
         <add key="bt_hid_en" value="False" />
         <add key="bt_hid_menu_en" value="False" />

@@ -23,8 +23,8 @@
         <add key="sys_init_vol" value="5" />
         <add key="warning_volume" value="6" />
         <add key="osc_both_cap" value="0PF" />
-        <add key="osci_cap" value="29" />
-        <add key="osco_cap" value="29" />
+        <add key="osci_cap" value="26" />
+        <add key="osco_cap" value="26" />
         <add key="vddio_sel" value="10" />
         <add key="eq_dgb_spp_en" value="False" />
         <add key="eq_dgb_uart_en" value="False" />
@@ -45,10 +45,10 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="Carry Spk" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="41:42:00:00:01:5D" />
-        <add key="bt_addr_start" value="41:42:00:00:00:00" />
+        <add key="bt_addr" value="25:0D:19:00:00:00" />
+        <add key="bt_addr_start" value="25:0D:19:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
-        <add key="bt_addr_end" value="41:42:FF:FF:FF:FF" />
+        <add key="bt_addr_end" value="25:0D:19:FF:FF:FF" />
         <add key="bt_txpwr" value="+2DBM" />
         <add key="bt_rf_param" value="255" />
         <add key="bt_2acl_en" value="True" />
@@ -167,8 +167,8 @@
         <add key="rled_io_sel" value="PF3" />
         <add key="led_pwron_config_en" value="True" />
         <add key="led_poweron_redpat" value="0" />
-        <add key="led_poweron_bluepat" value="85" />
-        <add key="led_poweron_unit" value="4" />
+        <add key="led_poweron_bluepat" value="51" />
+        <add key="led_poweron_unit" value="1" />
         <add key="led_poweron_cycle" value="0" />
         <add key="led_pwroff_config_en" value="False" />
         <add key="led_poweroff_redpat" value="64" />
@@ -177,39 +177,39 @@
         <add key="led_poweroff_cycle" value="255" />
         <add key="led_btinit_config_en" value="True" />
         <add key="led_btinit_redpat" value="0" />
-        <add key="led_btinit_bluepat" value="170" />
-        <add key="led_btinit_unit" value="2" />
+        <add key="led_btinit_bluepat" value="51" />
+        <add key="led_btinit_unit" value="1" />
         <add key="led_btinit_cycle" value="0" />
         <add key="led_reconnect_config_en" value="True" />
         <add key="led_reconnect_redpat" value="0" />
-        <add key="led_reconnect_bluepat" value="5" />
-        <add key="led_reconnect_unit" value="2" />
+        <add key="led_reconnect_bluepat" value="51" />
+        <add key="led_reconnect_unit" value="1" />
         <add key="led_reconnect_cycle" value="0" />
-        <add key="led_btpair_config_en" value="False" />
-        <add key="led_pairing_redpat" value="96" />
-        <add key="led_pairing_bluepat" value="3" />
-        <add key="led_pairing_unit" value="3" />
-        <add key="led_pairing_cycle" value="6" />
+        <add key="led_btpair_config_en" value="True" />
+        <add key="led_pairing_redpat" value="0" />
+        <add key="led_pairing_bluepat" value="51" />
+        <add key="led_pairing_unit" value="1" />
+        <add key="led_pairing_cycle" value="0" />
         <add key="led_btconn_config_en" value="True" />
         <add key="led_connected_redpat" value="0" />
-        <add key="led_connected_bluepat" value="255" />
-        <add key="led_connected_unit" value="2" />
+        <add key="led_connected_bluepat" value="15" />
+        <add key="led_connected_unit" value="4" />
         <add key="led_connected_cycle" value="0" />
         <add key="led_btmusic_config_en" value="True" />
         <add key="led_playing_redpat" value="0" />
-        <add key="led_playing_bluepat" value="85" />
-        <add key="led_playing_unit" value="10" />
+        <add key="led_playing_bluepat" value="15" />
+        <add key="led_playing_unit" value="4" />
         <add key="led_playing_cycle" value="0" />
-        <add key="led_btring_config_en" value="False" />
+        <add key="led_btring_config_en" value="True" />
         <add key="led_ring_redpat" value="0" />
-        <add key="led_ring_bluepat" value="2" />
-        <add key="led_ring_unit" value="2" />
-        <add key="led_ring_cycle" value="86" />
-        <add key="led_btcall_config_en" value="False" />
+        <add key="led_ring_bluepat" value="15" />
+        <add key="led_ring_unit" value="4" />
+        <add key="led_ring_cycle" value="0" />
+        <add key="led_btcall_config_en" value="True" />
         <add key="led_calling_redpat" value="0" />
-        <add key="led_calling_bluepat" value="2" />
-        <add key="led_calling_unit" value="2" />
-        <add key="led_calling_cycle" value="86" />
+        <add key="led_calling_bluepat" value="15" />
+        <add key="led_calling_unit" value="4" />
+        <add key="led_calling_cycle" value="4" />
         <add key="led_lowbat_config_en" value="False" />
         <add key="led_lowbat_redpat" value="170" />
         <add key="led_lowbat_bluepat" value="0" />

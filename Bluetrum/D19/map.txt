@@ -4535,138 +4535,138 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x0000000010017b92      0x13a Output\obj\projects\standard\message\msg_fmrx.o
                 0x0000000010017b92                func_fmrx_message
  .text.func.music.msg
-                0x0000000010017ccc      0x2ee Output\obj\projects\standard\message\msg_music.o
+                0x0000000010017ccc      0x2f0 Output\obj\projects\standard\message\msg_music.o
                 0x0000000010017ccc                func_music_message
  .text.func.usbdev.msg
-                0x0000000010017fba      0x12c Output\obj\projects\standard\message\msg_usbdev.o
-                0x0000000010017fba                func_usbdev_message
+                0x0000000010017fbc      0x12c Output\obj\projects\standard\message\msg_usbdev.o
+                0x0000000010017fbc                func_usbdev_message
  .text.plugin_init
-                0x00000000100180e6        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100180e6                plugin_init
+                0x00000000100180e8        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100180e8                plugin_init
  .text.plugin_var_init
-                0x00000000100180e8      0x136 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100180e8                plugin_var_init
+                0x00000000100180ea      0x136 Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100180ea                plugin_var_init
  .text.plugin_saradc_init
-                0x000000001001821e        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x000000001001821e                plugin_saradc_init
+                0x0000000010018220        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018220                plugin_saradc_init
  .text.get_sddet_io_num
-                0x0000000010018220       0x1e Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018220                get_sddet_io_num
+                0x0000000010018222       0x1e Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018222                get_sddet_io_num
  .text.sleep_wakeup_config
-                0x000000001001823e       0x8c Output\obj\projects\standard\plugin\plugin.o
-                0x000000001001823e                sleep_wakeup_config
+                0x0000000010018240       0x8c Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018240                sleep_wakeup_config
  .text.bt_hfp_ring_number_en
-                0x00000000100182ca        0xc Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100182ca                bt_hfp_ring_number_en
+                0x00000000100182cc        0xc Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100182cc                bt_hfp_ring_number_en
  .text.is_func_fmrx_en
-                0x00000000100182d6        0xc Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100182d6                is_func_fmrx_en
+                0x00000000100182d8        0xc Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100182d8                is_func_fmrx_en
  .text.is_sleep_dac_off_enable
-                0x00000000100182e2       0x20 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100182e2                is_sleep_dac_off_enable
+                0x00000000100182e4       0x20 Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100182e4                is_sleep_dac_off_enable
  .text.maxvol_tone_play
-                0x0000000010018302       0x42 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018302                maxvol_tone_play
+                0x0000000010018304       0x42 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018304                maxvol_tone_play
  .text.plugin_playmode_warning
-                0x0000000010018344        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018344                plugin_playmode_warning
+                0x0000000010018346        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018346                plugin_playmode_warning
  .text.plugin_lowbat_vol_reduce
-                0x0000000010018346        0xa Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018346                plugin_lowbat_vol_reduce
+                0x0000000010018348        0xa Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018348                plugin_lowbat_vol_reduce
  .text.plugin_lowbat_vol_recover
-                0x0000000010018350        0x8 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018350                plugin_lowbat_vol_recover
+                0x0000000010018352        0x8 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018352                plugin_lowbat_vol_recover
  .text.plugin_music_eq
-                0x0000000010018358       0x18 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018358                plugin_music_eq
+                0x000000001001835a       0x18 Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001835a                plugin_music_eq
  .text.earphone_detect_init
-                0x0000000010018370       0x88 Output\obj\projects\standard\port\port_earphone.o
-                0x0000000010018370                earphone_detect_init
+                0x0000000010018372       0x88 Output\obj\projects\standard\port\port_earphone.o
+                0x0000000010018372                earphone_detect_init
  .text.external_power_gpio_poweron
-                0x00000000100183f8       0x44 Output\obj\projects\standard\port\port_key.o
-                0x00000000100183f8                external_power_gpio_poweron
+                0x00000000100183fa       0x44 Output\obj\projects\standard\port\port_key.o
+                0x00000000100183fa                external_power_gpio_poweron
  .text.led_disp
-                0x000000001001843c      0x246 Output\obj\projects\standard\port\port_led.o
-                0x000000001001843c                led_power_up
-                0x0000000010018466                led_power_down
-                0x000000001001848e                led_idle
-                0x00000000100184a0                led_bt_init
-                0x00000000100184ca                led_bt_idle
-                0x00000000100184f4                led_bt_reconnect
-                0x000000001001851e                led_tws_main_connected
-                0x000000001001855c                led_tws_slave_connected
-                0x000000001001859a                led_bt_connected
-                0x00000000100185c4                led_bt_play
-                0x00000000100185ee                led_bt_ring
-                0x0000000010018618                led_bt_call
-                0x0000000010018642                led_fm_scan
-                0x0000000010018654                led_music_busy
-                0x0000000010018656                led_record
-                0x0000000010018668                led_fm_play
-                0x000000001001866a                led_aux_play
-                0x000000001001866c                led_music_play
-                0x000000001001866e                led_bt_scan
-                0x0000000010018670                led_bt_pb_sleep
+                0x000000001001843e      0x246 Output\obj\projects\standard\port\port_led.o
+                0x000000001001843e                led_power_up
+                0x0000000010018468                led_power_down
+                0x0000000010018490                led_bt_init
+                0x00000000100184ba                led_bt_idle
+                0x00000000100184e4                led_bt_reconnect
+                0x000000001001850e                led_tws_main_connected
+                0x000000001001854c                led_tws_slave_connected
+                0x000000001001858a                led_bt_connected
+                0x00000000100185b4                led_bt_play
+                0x00000000100185de                led_bt_ring
+                0x0000000010018608                led_bt_call
+                0x0000000010018632                led_aux_play
+                0x0000000010018644                led_idle
+                0x0000000010018646                led_fm_scan
+                0x0000000010018658                led_music_busy
+                0x000000001001865a                led_record
+                0x000000001001866c                led_fm_play
+                0x000000001001866e                led_music_play
+                0x0000000010018670                led_bt_scan
+                0x0000000010018672                led_bt_pb_sleep
  .text.led_func_init
-                0x0000000010018682       0xcc Output\obj\projects\standard\port\port_led.o
-                0x0000000010018682                led_func_init
+                0x0000000010018684       0xcc Output\obj\projects\standard\port\port_led.o
+                0x0000000010018684                led_func_init
  .text.led_get_cfg_port
-                0x000000001001874e       0x22 Output\obj\projects\standard\port\port_led.o
-                0x000000001001874e                led_get_cfg_port
+                0x0000000010018750       0x22 Output\obj\projects\standard\port\port_led.o
+                0x0000000010018750                led_get_cfg_port
  .text.is_linein_enter_enable
-                0x0000000010018770       0x44 Output\obj\projects\standard\port\port_linein.o
-                0x0000000010018770                is_linein_enter_enable
+                0x0000000010018772       0x44 Output\obj\projects\standard\port\port_linein.o
+                0x0000000010018772                is_linein_enter_enable
  .text.linein_detect_init
-                0x00000000100187b4       0xbe Output\obj\projects\standard\port\port_linein.o
-                0x00000000100187b4                linein_detect_init
+                0x00000000100187b6       0xbe Output\obj\projects\standard\port\port_linein.o
+                0x00000000100187b6                linein_detect_init
  .text.loudspeaker_mute_init
-                0x0000000010018872       0x6a Output\obj\projects\standard\port\port_mute.o
-                0x0000000010018872                loudspeaker_mute_init
- .text.mute     0x00000000100188dc       0x28 Output\obj\projects\standard\port\port_mute.o
-                0x00000000100188dc                loudspeaker_disable
+                0x0000000010018874       0x6a Output\obj\projects\standard\port\port_mute.o
+                0x0000000010018874                loudspeaker_mute_init
+ .text.mute     0x00000000100188de       0x28 Output\obj\projects\standard\port\port_mute.o
+                0x00000000100188de                loudspeaker_disable
  .text.amplifier
-                0x0000000010018904       0xb8 Output\obj\projects\standard\port\port_mute.o
-                0x0000000010018904                amp_sel_cfg_d
-                0x0000000010018942                amp_sel_cfg_init
-                0x0000000010018958                amp_sel_cfg_ab
-                0x0000000010018998                amp_sel_cfg_dis
+                0x0000000010018906       0xb8 Output\obj\projects\standard\port\port_mute.o
+                0x0000000010018906                amp_sel_cfg_d
+                0x0000000010018944                amp_sel_cfg_init
+                0x000000001001895a                amp_sel_cfg_ab
+                0x000000001001899a                amp_sel_cfg_dis
  .text.sdcard_detect_init
-                0x00000000100189bc       0x92 Output\obj\projects\standard\port\port_sd.o
-                0x00000000100189bc                sdcard_detect_init
- .text.sdcard   0x0000000010018a4e       0xfe Output\obj\projects\standard\port\port_sd.o
-                0x0000000010018a4e                sd_gpio_init
- .text.sdcard   0x0000000010018b4c        0x2 Output\obj\projects\standard\port\port_sd1.o
-                0x0000000010018b4c                sd1_gpio_init
+                0x00000000100189be       0x92 Output\obj\projects\standard\port\port_sd.o
+                0x00000000100189be                sdcard_detect_init
+ .text.sdcard   0x0000000010018a50       0xfe Output\obj\projects\standard\port\port_sd.o
+                0x0000000010018a50                sd_gpio_init
+ .text.sdcard   0x0000000010018b4e        0x2 Output\obj\projects\standard\port\port_sd1.o
+                0x0000000010018b4e                sd1_gpio_init
  .text.adpll_init
-                0x0000000010018b4e       0xda ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018b4e                adpll_init
+                0x0000000010018b50       0xda ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018b50                adpll_init
  .text.adpll_spr_set
-                0x0000000010018c28       0x9c ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018c28                adpll_spr_set
- .text.audio    0x0000000010018cc4      0xa68 ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018cc4                set_aux_analog_gain
-                0x0000000010018d14                set_mic_analog_gain
-                0x0000000010018d6a                aux_analog_channel_select
-                0x0000000010018ef4                aux_analog_channel_close
-                0x0000000010018fb8                analog_mic2pa_start
-                0x0000000010019052                analog_aux2pa_start
-                0x00000000100191d2                analog_aux2pa_exit
-                0x0000000010019262                analog_aux2pa_dig2anl_enable
-                0x0000000010019298                analog_aux2pa_dig2anl_disable
-                0x00000000100192d2                sdadc_analog_aux_start
-                0x00000000100193d2                aux_shorting_enable
-                0x0000000010019410                aux_shorting_disable
-                0x0000000010019454                aux2pa_sdadc_enable
-                0x0000000010019524                sdadc_analog_aux_exit
-                0x000000001001958a                sdadc_analog_mic_start
-                0x00000000100196e4                sdadc_analog_mic_exit
+                0x0000000010018c2a       0x9c ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018c2a                adpll_spr_set
+ .text.audio    0x0000000010018cc6      0xa68 ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018cc6                set_aux_analog_gain
+                0x0000000010018d16                set_mic_analog_gain
+                0x0000000010018d6c                aux_analog_channel_select
+                0x0000000010018ef6                aux_analog_channel_close
+                0x0000000010018fba                analog_mic2pa_start
+                0x0000000010019054                analog_aux2pa_start
+                0x00000000100191d4                analog_aux2pa_exit
+                0x0000000010019264                analog_aux2pa_dig2anl_enable
+                0x000000001001929a                analog_aux2pa_dig2anl_disable
+                0x00000000100192d4                sdadc_analog_aux_start
+                0x00000000100193d4                aux_shorting_enable
+                0x0000000010019412                aux_shorting_disable
+                0x0000000010019456                aux2pa_sdadc_enable
+                0x0000000010019526                sdadc_analog_aux_exit
+                0x000000001001958c                sdadc_analog_mic_start
+                0x00000000100196e6                sdadc_analog_mic_exit
  .text.aux_channel_mute
-                0x000000001001972c       0x10 ..\..\platform\libs\libplatform.a(audio.o)
-                0x000000001001972c                aux_channel_mute
+                0x000000001001972e       0x10 ..\..\platform\libs\libplatform.a(audio.o)
+                0x000000001001972e                aux_channel_mute
  .text.aux_channel_unmute
-                0x000000001001973c       0x12 ..\..\platform\libs\libplatform.a(audio.o)
-                0x000000001001973c                aux_channel_unmute
- *fill*         0x000000001001974e        0x2 
+                0x000000001001973e       0x12 ..\..\platform\libs\libplatform.a(audio.o)
+                0x000000001001973e                aux_channel_unmute
+ *fill*         0x0000000010019750        0x0 
  .text.audio.table
                 0x0000000010019750       0x1a ..\..\platform\libs\libplatform.a(audio.o)
                 0x0000000010019750                mic_anl_table

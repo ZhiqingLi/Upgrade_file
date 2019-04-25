@@ -230,5 +230,14 @@
         <add key="led_lowbat_unit" value="6" />
         <add key="led_lowbat_cycle" value="0" />
         <add key="RESOURCE_DIR_SEL" value="D19" />
+        <add key="bt_user_param_en" value="False" />
+        <add key="rf_captune" value="7" />
+        <add key="rf_pa_gain" value="7" />
+        <add key="rf_mix_gain" value="5" />
+        <add key="rf_dig_gain" value="55" />
+        <add key="rf_pa_bias" value="4" />
+        <add key="rf_vbko_add" value="0" />
+        <add key="bt_dis_reconnect_en" value="True" />
+        <add key="bt_dis_reconnect_cnt" value="10" />
     </appSettings>
 </configuration>

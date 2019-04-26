@@ -8,5 +8,15 @@ yfa7    NArui526
 yfa8    NArui2491
 yfa9    NArui2499
 yfa10  NArui2459
+yfa11  NArui2510
+yfa12  NArui2520
+yfa13  NArui2530
+yfa14  NArui2540
+yfa15  NArui2550
+yfa16  NArui2560
+yfa17  NArui2570
+yfa18  NArui2580
+yfa19  NArui2590
+yfa20  NArui2599
 yfa21  NArui111
 

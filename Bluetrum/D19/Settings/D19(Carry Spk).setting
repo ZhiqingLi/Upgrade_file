@@ -48,7 +48,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="Carry Spk" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:0D:19:00:00:05" />
+        <add key="bt_addr" value="25:0D:19:00:00:0B" />
         <add key="bt_addr_start" value="25:0D:19:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:0D:19:FF:FF:FF" />

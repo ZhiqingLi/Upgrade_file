@@ -26,8 +26,8 @@
         <add key="sys_init_vol" value="5" />
         <add key="warning_volume" value="6" />
         <add key="osc_both_cap" value="0PF" />
-        <add key="osci_cap" value="26" />
-        <add key="osco_cap" value="26" />
+        <add key="osci_cap" value="30" />
+        <add key="osco_cap" value="30" />
         <add key="vddio_sel" value="10" />
         <add key="eq_dgb_spp_en" value="False" />
         <add key="eq_dgb_uart_en" value="False" />
@@ -48,10 +48,10 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="Carry Spk" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:0D:19:00:00:0B" />
+        <add key="bt_addr" value="25:BD:19:00:00:00" />
         <add key="bt_addr_start" value="25:0D:19:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
-        <add key="bt_addr_end" value="25:0D:19:FF:FF:FF" />
+        <add key="bt_addr_end" value="25:BD:19:FF:FF:FF" />
         <add key="bt_txpwr" value="+2DBM" />
         <add key="bt_rf_param" value="255" />
         <add key="bt_pwrkey_nsec_discover" value="不支持" />
@@ -239,5 +239,6 @@
         <add key="rf_vbko_add" value="0" />
         <add key="bt_dis_reconnect_en" value="True" />
         <add key="bt_dis_reconnect_cnt" value="10" />
+        <add key="powkey_soft_on_off" value="False" />
     </appSettings>
 </configuration>

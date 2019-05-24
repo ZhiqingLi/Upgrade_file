@@ -4196,123 +4196,123 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x0000000010013506       0x12 Output\obj\platform\bsp\bsp_iap.o
                 0x0000000010013506                iphone_power_set
  .text.bsp.power
-                0x0000000010013518      0x2ee Output\obj\platform\bsp\bsp_key.o
+                0x0000000010013518      0x2f6 Output\obj\platform\bsp\bsp_key.o
                 0x0000000010013518                pwrkey_get_status
                 0x0000000010013576                power_off_check
                 0x0000000010013650                is_powron_frist_enable
                 0x000000001001365a                charge_full_bled_on_time_check
                 0x00000000100136b8                power_on_check
  .text.is_lowpower_vbat_warning
-                0x0000000010013806       0x68 Output\obj\platform\bsp\bsp_key.o
-                0x0000000010013806                is_lowpower_vbat_warning
- .text.bsp.key  0x000000001001386e       0x2e Output\obj\platform\bsp\bsp_key.o
-                0x000000001001386e                get_pwroff_pressed_time
-                0x0000000010013882                get_double_key_time
+                0x000000001001380e       0x68 Output\obj\platform\bsp\bsp_key.o
+                0x000000001001380e                is_lowpower_vbat_warning
+ .text.bsp.key  0x0000000010013876       0x2e Output\obj\platform\bsp\bsp_key.o
+                0x0000000010013876                get_pwroff_pressed_time
+                0x000000001001388a                get_double_key_time
  .text.bsp.key.init
-                0x000000001001389c       0x84 Output\obj\platform\bsp\bsp_key.o
-                0x000000001001389c                key_init
+                0x00000000100138a4       0x84 Output\obj\platform\bsp\bsp_key.o
+                0x00000000100138a4                key_init
  .text.led_disp
-                0x0000000010013920       0xb2 Output\obj\platform\bsp\bsp_led.o
-                0x0000000010013920                led_cfg_port_init
-                0x0000000010013962                led_init
-                0x0000000010013996                led_off
-                0x00000000100139a4                led_on
-                0x00000000100139b4                rled_on
-                0x00000000100139c4                rled_off
+                0x0000000010013928       0xb2 Output\obj\platform\bsp\bsp_led.o
+                0x0000000010013928                led_cfg_port_init
+                0x000000001001396a                led_init
+                0x000000001001399e                led_off
+                0x00000000100139ac                led_on
+                0x00000000100139bc                rled_on
+                0x00000000100139cc                rled_off
  .text.led2_port_init
-                0x00000000100139d2       0x50 Output\obj\platform\bsp\bsp_led.o
-                0x00000000100139d2                led2_port_init
+                0x00000000100139da       0x50 Output\obj\platform\bsp\bsp_led.o
+                0x00000000100139da                led2_port_init
  .text.music_playmode_next
-                0x0000000010013a22       0x2c Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013a22                music_playmode_next
+                0x0000000010013a2a       0x2c Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013a2a                music_playmode_next
  .text.bsp_music_breakpoint_clr
-                0x0000000010013a4e       0x1a Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013a4e                bsp_music_breakpoint_clr
+                0x0000000010013a56       0x1a Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013a56                bsp_music_breakpoint_clr
  .text.bsp_music_breakpoint_init
-                0x0000000010013a68       0x7c Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013a68                bsp_music_breakpoint_init
+                0x0000000010013a70       0x7c Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013a70                bsp_music_breakpoint_init
  .text.bsp_music_breakpoint_save
-                0x0000000010013ae4       0x16 Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013ae4                bsp_music_breakpoint_save
+                0x0000000010013aec       0x16 Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013aec                bsp_music_breakpoint_save
  .text.mp3_res_play
-                0x0000000010013afa      0x126 Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013afa                mp3_res_play
+                0x0000000010013b02      0x126 Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013b02                mp3_res_play
  .text.pf_scan_music
-                0x0000000010013c20       0x6a Output\obj\platform\bsp\bsp_music.o
-                0x0000000010013c20                pf_scan_music
+                0x0000000010013c28       0x6a Output\obj\platform\bsp\bsp_music.o
+                0x0000000010013c28                pf_scan_music
  .text.bsp.param
-                0x0000000010013c8a      0x206 Output\obj\platform\bsp\bsp_param.o
-                0x0000000010013c8a                bsp_param_write
-                0x0000000010013c8e                bsp_param_read
-                0x0000000010013c92                bsp_param_sync
-                0x0000000010013c96                param_msc_num_write
-                0x0000000010013cbe                param_msc_num_read
-                0x0000000010013d1c                param_msc_breakpoint_write
-                0x0000000010013d46                param_msc_breakpoint_read
-                0x0000000010013d70                param_fmrx_chcur_write
-                0x0000000010013d80                param_fmrx_chcur_read
-                0x0000000010013d90                param_fmrx_chcnt_write
-                0x0000000010013da0                param_fmrx_chcnt_read
-                0x0000000010013db0                param_fmrx_chbuf_write
-                0x0000000010013dc0                param_fmrx_chbuf_read
-                0x0000000010013dd0                param_sys_vol_write
-                0x0000000010013dde                param_sys_vol_read
-                0x0000000010013dec                param_init
-                0x0000000010013e6c                param_lang_id_write
-                0x0000000010013e7a                param_lang_id_read
-                0x0000000010013e88                param_sync
-                0x0000000010013e8c                param_get_xosc_addr
+                0x0000000010013c92      0x206 Output\obj\platform\bsp\bsp_param.o
+                0x0000000010013c92                bsp_param_write
+                0x0000000010013c96                bsp_param_read
+                0x0000000010013c9a                bsp_param_sync
+                0x0000000010013c9e                param_msc_num_write
+                0x0000000010013cc6                param_msc_num_read
+                0x0000000010013d24                param_msc_breakpoint_write
+                0x0000000010013d4e                param_msc_breakpoint_read
+                0x0000000010013d78                param_fmrx_chcur_write
+                0x0000000010013d88                param_fmrx_chcur_read
+                0x0000000010013d98                param_fmrx_chcnt_write
+                0x0000000010013da8                param_fmrx_chcnt_read
+                0x0000000010013db8                param_fmrx_chbuf_write
+                0x0000000010013dc8                param_fmrx_chbuf_read
+                0x0000000010013dd8                param_sys_vol_write
+                0x0000000010013de6                param_sys_vol_read
+                0x0000000010013df4                param_init
+                0x0000000010013e74                param_lang_id_write
+                0x0000000010013e82                param_lang_id_read
+                0x0000000010013e90                param_sync
+                0x0000000010013e94                param_get_xosc_addr
  .text.bt_app_cmd_process
-                0x0000000010013e90      0x15a Output\obj\platform\bsp\bsp_spp.o
-                0x0000000010013e90                bt_app_cmd_process
+                0x0000000010013e98      0x15a Output\obj\platform\bsp\bsp_spp.o
+                0x0000000010013e98                bt_app_cmd_process
  .text.spp_rx_callback
-                0x0000000010013fea        0x4 Output\obj\platform\bsp\bsp_spp.o
-                0x0000000010013fea                spp_rx_callback
+                0x0000000010013ff2        0x4 Output\obj\platform\bsp\bsp_spp.o
+                0x0000000010013ff2                spp_rx_callback
  .text.bsp.sys.init
-                0x0000000010013fee      0x570 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010014144                rtc_init
-                0x000000001001420a                tws_pwrkey_820k_check
-                0x00000000100142a4                tws_gpiox_2_gnd_check
-                0x000000001001437c                tws_lr_xcfg_sel
-                0x00000000100143da                bsp_update_init
-                0x0000000010014432                bsp_sys_init
- .text.bsp.sys  0x000000001001455e       0x92 Output\obj\platform\bsp\bsp_sys.o
-                0x000000001001455e                bsp_sys_mute
-                0x0000000010014592                bsp_sys_unmute
-                0x00000000100145d0                bsp_clr_mute_sta
+                0x0000000010013ff6      0x570 Output\obj\platform\bsp\bsp_sys.o
+                0x000000001001414c                rtc_init
+                0x0000000010014212                tws_pwrkey_820k_check
+                0x00000000100142ac                tws_gpiox_2_gnd_check
+                0x0000000010014384                tws_lr_xcfg_sel
+                0x00000000100143e2                bsp_update_init
+                0x000000001001443a                bsp_sys_init
+ .text.bsp.sys  0x0000000010014566       0x92 Output\obj\platform\bsp\bsp_sys.o
+                0x0000000010014566                bsp_sys_mute
+                0x000000001001459a                bsp_sys_unmute
+                0x00000000100145d8                bsp_clr_mute_sta
  .text.uart0_mapping_sel
-                0x00000000100145f0       0x56 Output\obj\platform\bsp\bsp_sys.o
-                0x00000000100145f0                uart0_mapping_sel
+                0x00000000100145f8       0x56 Output\obj\platform\bsp\bsp_sys.o
+                0x00000000100145f8                uart0_mapping_sel
  .text.bsp_get_xosc_xcfg
-                0x0000000010014646       0x20 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010014646                bsp_get_xosc_xcfg
+                0x000000001001464e       0x20 Output\obj\platform\bsp\bsp_sys.o
+                0x000000001001464e                bsp_get_xosc_xcfg
  .text.spiflash_speed_up_en
-                0x0000000010014666        0x4 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010014666                spiflash_speed_up_en
+                0x000000001001466e        0x4 Output\obj\platform\bsp\bsp_sys.o
+                0x000000001001466e                spiflash_speed_up_en
  .text.func.msg
-                0x000000001001466a      0x3c2 Output\obj\platform\functions\func.o
-                0x000000001001466a                lowpower_vbat_process
-                0x0000000010014768                func_message
+                0x0000000010014672      0x3ce Output\obj\platform\functions\func.o
+                0x0000000010014672                lowpower_vbat_process
+                0x0000000010014770                func_message
  .text.func.process
-                0x0000000010014a2c        0xa Output\obj\platform\functions\func.o
-                0x0000000010014a2c                func_process
- .text.func     0x0000000010014a36      0x116 Output\obj\platform\functions\func.o
-                0x0000000010014a36                func_enter
-                0x0000000010014a86                func_exit
-                0x0000000010014ade                func_run
+                0x0000000010014a40        0xa Output\obj\platform\functions\func.o
+                0x0000000010014a40                func_process
+ .text.func     0x0000000010014a4a      0x116 Output\obj\platform\functions\func.o
+                0x0000000010014a4a                func_enter
+                0x0000000010014a9a                func_exit
+                0x0000000010014af2                func_run
  .text.func.aux
-                0x0000000010014b4c      0x156 Output\obj\platform\functions\func_aux.o
-                0x0000000010014b4c                func_aux_start
-                0x0000000010014b6c                func_aux_stop
-                0x0000000010014b82                func_aux_pause_play
-                0x0000000010014bbc                func_aux_setvol_callback
-                0x0000000010014c08                func_aux_process
-                0x0000000010014c0c                func_aux
- .text.bsp.aux  0x0000000010014ca2       0x2e Output\obj\platform\functions\func_aux.o
-                0x0000000010014ca2                func_aux_mp3_res_play
+                0x0000000010014b60      0x156 Output\obj\platform\functions\func_aux.o
+                0x0000000010014b60                func_aux_start
+                0x0000000010014b80                func_aux_stop
+                0x0000000010014b96                func_aux_pause_play
+                0x0000000010014bd0                func_aux_setvol_callback
+                0x0000000010014c1c                func_aux_process
+                0x0000000010014c20                func_aux
+ .text.bsp.aux  0x0000000010014cb6       0x2e Output\obj\platform\functions\func_aux.o
+                0x0000000010014cb6                func_aux_mp3_res_play
  .text.func_bt_tws_set_channel
-                0x0000000010014cd0       0x5a Output\obj\platform\functions\func_bt.o
- *fill*         0x0000000010014d2a       0x16 
+                0x0000000010014ce4       0x5a Output\obj\platform\functions\func_bt.o
+ *fill*         0x0000000010014d3e        0x2 
  .text.func_bt_chkclr_warning
                 0x0000000010014d40       0x80 Output\obj\platform\functions\func_bt.o
                 0x0000000010014d40                func_bt_chkclr_warning
@@ -4370,782 +4370,783 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x0000000010015e00                func_sleepmode
  *fill*         0x0000000010015ef6      0x10a 
  .text.lowpwr.pwroff
-                0x0000000010016000      0x53a Output\obj\platform\functions\func_lowpwr.o
+                0x0000000010016000      0x528 Output\obj\platform\functions\func_lowpwr.o
                 0x0000000010016000                sfunc_lowbat
                 0x0000000010016200                sfunc_pwrdown
                 0x00000000100162ec                func_pwroff
  .text.func.music
-                0x000000001001653a      0x7c8 Output\obj\platform\functions\func_music.o
-                0x000000001001653a                func_music_mp3_res_play
-                0x000000001001658e                func_music_remove_device
-                0x00000000100165f4                func_music_insert_device
-                0x000000001001661e                func_music_switch_device
-                0x00000000100166a4                func_music_auto_next_device
-                0x000000001001672c                func_music_switch_file
-                0x000000001001682c                func_music_auto_next_file
-                0x0000000010016852                func_music_switch_dir
-                0x00000000100168c4                func_music_select_dir
-                0x000000001001690e                func_music_file_new
-                0x00000000100169b2                func_music_device_new
-                0x0000000010016a76                func_music_process
-                0x0000000010016b9c                func_music
+                0x0000000010016528      0x7c8 Output\obj\platform\functions\func_music.o
+                0x0000000010016528                func_music_mp3_res_play
+                0x000000001001657c                func_music_remove_device
+                0x00000000100165e2                func_music_insert_device
+                0x000000001001660c                func_music_switch_device
+                0x0000000010016692                func_music_auto_next_device
+                0x000000001001671a                func_music_switch_file
+                0x000000001001681a                func_music_auto_next_file
+                0x0000000010016840                func_music_switch_dir
+                0x00000000100168b2                func_music_select_dir
+                0x00000000100168fc                func_music_file_new
+                0x00000000100169a0                func_music_device_new
+                0x0000000010016a64                func_music_process
+                0x0000000010016b8a                func_music
  .text.func_music_filter_set
-                0x0000000010016d02       0x16 Output\obj\platform\functions\func_music.o
-                0x0000000010016d02                func_music_filter_set
+                0x0000000010016cf0       0x16 Output\obj\platform\functions\func_music.o
+                0x0000000010016cf0                func_music_filter_set
  .text.func.update
-                0x0000000010016d18       0x3c Output\obj\platform\functions\func_update.o
-                0x0000000010016d18                func_update
+                0x0000000010016d06       0x3c Output\obj\platform\functions\func_update.o
+                0x0000000010016d06                func_update
  .text.func.usbdev
-                0x0000000010016d54      0x1de Output\obj\platform\functions\func_usbdev.o
-                0x0000000010016d54                ude_mic_start
-                0x0000000010016d72                ude_mic_stop
-                0x0000000010016d78                ude_sdcard_switch
-                0x0000000010016db4                ude_sdcard_change_process
-                0x0000000010016de4                func_usbdev_process
-                0x0000000010016df4                func_usbdev
+                0x0000000010016d42      0x1de Output\obj\platform\functions\func_usbdev.o
+                0x0000000010016d42                ude_mic_start
+                0x0000000010016d60                ude_mic_stop
+                0x0000000010016d66                ude_sdcard_switch
+                0x0000000010016da2                ude_sdcard_change_process
+                0x0000000010016dd2                func_usbdev_process
+                0x0000000010016de2                func_usbdev
  .text.sco_audio_init
-                0x0000000010016f32       0xce Output\obj\platform\functions\sfunc_bt_call.o
-                0x0000000010016f32                sco_audio_init
+                0x0000000010016f20       0xce Output\obj\platform\functions\sfunc_bt_call.o
+                0x0000000010016f20                sco_audio_init
  .text.sco_audio_exit
-                0x0000000010017000       0x26 Output\obj\platform\functions\sfunc_bt_call.o
-                0x0000000010017000                sco_audio_exit
- .text.func.bt  0x0000000010017026       0x5c Output\obj\platform\functions\sfunc_bt_call.o
-                0x0000000010017026                sfunc_bt_call
+                0x0000000010016fee       0x26 Output\obj\platform\functions\sfunc_bt_call.o
+                0x0000000010016fee                sco_audio_exit
+ .text.func.bt  0x0000000010017014       0x5c Output\obj\platform\functions\sfunc_bt_call.o
+                0x0000000010017014                sfunc_bt_call
  .text.func.btring
-                0x0000000010017082       0x46 Output\obj\platform\functions\sfunc_bt_ota.o
-                0x0000000010017082                sfunc_bt_ota
+                0x0000000010017070       0x46 Output\obj\platform\functions\sfunc_bt_ota.o
+                0x0000000010017070                sfunc_bt_ota
  .text.func.btring
-                0x00000000100170c8      0x260 Output\obj\platform\functions\sfunc_bt_ring.o
-                0x0000000010017100                hfp_get_bnip_number
-                0x000000001001714a                sfunc_bt_ring
+                0x00000000100170b6      0x260 Output\obj\platform\functions\sfunc_bt_ring.o
+                0x00000000100170ee                hfp_get_bnip_number
+                0x0000000010017138                sfunc_bt_ring
  .text.hfp_notice_ring_number
-                0x0000000010017328       0x2c Output\obj\platform\functions\sfunc_bt_ring.o
-                0x0000000010017328                hfp_notice_ring_number
+                0x0000000010017316       0x2c Output\obj\platform\functions\sfunc_bt_ring.o
+                0x0000000010017316                hfp_notice_ring_number
  .text.rec_wave_process
-                0x0000000010017354        0x2 Output\obj\platform\functions\sfunc_record.o
-                0x0000000010017354                rec_wave_process
+                0x0000000010017342        0x2 Output\obj\platform\functions\sfunc_record.o
+                0x0000000010017342                rec_wave_process
  .text.gui_init
-                0x0000000010017356       0x12 Output\obj\platform\gui\gui.o
-                0x0000000010017356                gui_init
- .text.gui      0x0000000010017368      0x1c6 Output\obj\platform\gui\gui.o
-                0x0000000010017368                gui_box_flicker_set
-                0x0000000010017382                gui_box_process
-                0x00000000100173de                gui_box_display
-                0x00000000100173e0                gui_box_clear
-                0x00000000100173f2                gui_box_show_vol
-                0x000000001001741e                gui_box_show_eq
-                0x000000001001743e                gui_box_show_playmode
-                0x000000001001745e                gui_box_show_num
-                0x0000000010017482                gui_box_show_chan
-                0x00000000100174a2                gui_box_show_inputnum
-                0x000000001001750e                gui_box_show_playdev
+                0x0000000010017344       0x12 Output\obj\platform\gui\gui.o
+                0x0000000010017344                gui_init
+ .text.gui      0x0000000010017356      0x1c6 Output\obj\platform\gui\gui.o
+                0x0000000010017356                gui_box_flicker_set
+                0x0000000010017370                gui_box_process
+                0x00000000100173cc                gui_box_display
+                0x00000000100173ce                gui_box_clear
+                0x00000000100173e0                gui_box_show_vol
+                0x000000001001740c                gui_box_show_eq
+                0x000000001001742c                gui_box_show_playmode
+                0x000000001001744c                gui_box_show_num
+                0x0000000010017470                gui_box_show_chan
+                0x0000000010017490                gui_box_show_inputnum
+                0x00000000100174fc                gui_box_show_playdev
  .text.mpa_encode_frame
-                0x000000001001752e        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001752e                mpa_encode_frame
+                0x000000001001751c        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001751c                mpa_encode_frame
  .text.adpcm_encode_process
-                0x0000000010017532        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017532                adpcm_encode_process
+                0x0000000010017520        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017520                adpcm_encode_process
  .text.wma_dec_init
-                0x0000000010017534        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017534                wma_dec_init
+                0x0000000010017522        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017522                wma_dec_init
  .text.wma_dec_frame
-                0x0000000010017538        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017538                wma_dec_frame
+                0x0000000010017526        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017526                wma_dec_frame
  .text.lock_code_wmadec
-                0x000000001001753c        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001753c                lock_code_wmadec
+                0x000000001001752a        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001752a                lock_code_wmadec
  .text.ape_dec_init
-                0x000000001001753e        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001753e                ape_dec_init
+                0x000000001001752c        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001752c                ape_dec_init
  .text.ape_dec_frame
-                0x0000000010017542        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017542                ape_dec_frame
+                0x0000000010017530        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017530                ape_dec_frame
  .text.lock_code_apedec
-                0x0000000010017546        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017546                lock_code_apedec
+                0x0000000010017534        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017534                lock_code_apedec
  .text.flac_dec_init
-                0x0000000010017548        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017548                flac_dec_init
+                0x0000000010017536        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017536                flac_dec_init
  .text.flac_dec_frame
-                0x000000001001754c        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001754c                flac_dec_frame
+                0x000000001001753a        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001753a                flac_dec_frame
  .text.lock_code_flacdec
-                0x0000000010017550        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017550                lock_code_flacdec
+                0x000000001001753e        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001753e                lock_code_flacdec
  .text.sbcio_dec_init
-                0x0000000010017552        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017552                sbcio_dec_init
+                0x0000000010017540        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017540                sbcio_dec_init
  .text.sbcio_dec_frame
-                0x0000000010017556        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017556                sbcio_dec_frame
+                0x0000000010017544        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017544                sbcio_dec_frame
  .text.lc_tsco_init
-                0x000000001001755a        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001755a                lc_tsco_init
+                0x0000000010017548        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017548                lc_tsco_init
  .text.lc_tsco_send_setup
-                0x000000001001755c        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001755c                lc_tsco_send_setup
+                0x000000001001754a        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001754a                lc_tsco_send_setup
  .text.lc_tsco_send_kill
-                0x000000001001755e        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001755e                lc_tsco_send_kill
+                0x000000001001754c        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001754c                lc_tsco_send_kill
  .text.bt_sco_fill_remote_buf
-                0x0000000010017560        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017560                bt_sco_fill_remote_buf
+                0x000000001001754e        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001754e                bt_sco_fill_remote_buf
  .text.magic_voice_process
-                0x0000000010017562        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017562                magic_voice_process
+                0x0000000010017550        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017550                magic_voice_process
  .text.spdif_pcm_process
-                0x0000000010017564        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017564                spdif_pcm_process
+                0x0000000010017552        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017552                spdif_pcm_process
  .text.i2s_process
-                0x0000000010017566        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017566                i2s_process
+                0x0000000010017554        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017554                i2s_process
  .text.ble_ll_init
-                0x0000000010017568        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017568                ble_ll_init
+                0x0000000010017556        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017556                ble_ll_init
  .text.ble_ll_reset
-                0x000000001001756a        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001756a                ble_ll_reset
+                0x0000000010017558        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017558                ble_ll_reset
  .text.ble_event_cmd_complete
-                0x000000001001756c        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001756c                ble_event_cmd_complete
+                0x000000001001755a        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001755a                ble_event_cmd_complete
  .text.ble_event_meta
-                0x0000000010017570        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017570                ble_event_meta
+                0x000000001001755e        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001755e                ble_event_meta
  .text.att_server_notify_do
-                0x0000000010017572        0x4 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017572                att_server_notify_do
+                0x0000000010017560        0x4 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017560                att_server_notify_do
  .text.hci_run_le_connection
-                0x0000000010017576        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017576                hci_run_le_connection
+                0x0000000010017564        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017564                hci_run_le_connection
  .text.btstack_ble_init
-                0x0000000010017578        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017578                btstack_ble_init
+                0x0000000010017566        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017566                btstack_ble_init
  .text.btstack_ble_send
-                0x000000001001757a        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001757a                btstack_ble_send
+                0x0000000010017568        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017568                btstack_ble_send
  .text.btstack_ble_update_conn_param
-                0x000000001001757c        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001757c                btstack_ble_update_conn_param
+                0x000000001001756a        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001756a                btstack_ble_update_conn_param
  .text.pbap_client_init
-                0x000000001001757e        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x000000001001757e                pbap_client_init
+                0x000000001001756c        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001756c                pbap_client_init
  .text.goep_client_init
-                0x0000000010017580        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017580                goep_client_init
+                0x000000001001756e        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x000000001001756e                goep_client_init
  .text.btstack_pbap
-                0x0000000010017582        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017582                btstack_pbap
+                0x0000000010017570        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017570                btstack_pbap
  .text.drc_process
-                0x0000000010017584        0x2 Output\obj\platform\libs\strong_symbol.o
-                0x0000000010017584                drc_process
- .text.func     0x0000000010017586       0xba Output\obj\projects\standard\config.o
-                0x0000000010017586                get_funcs_total
-                0x000000001001758a                is_next_func_switch
+                0x0000000010017572        0x2 Output\obj\platform\libs\strong_symbol.o
+                0x0000000010017572                drc_process
+ .text.func     0x0000000010017574       0xba Output\obj\projects\standard\config.o
+                0x0000000010017574                get_funcs_total
+                0x0000000010017578                is_next_func_switch
  .text.bt_get_rf_param
-                0x0000000010017640       0x16 Output\obj\projects\standard\main.o
-                0x0000000010017640                bt_get_rf_param
+                0x000000001001762e       0x16 Output\obj\projects\standard\main.o
+                0x000000001001762e                bt_get_rf_param
  .text.sys_error_hook
-                0x0000000010017656        0xe Output\obj\projects\standard\main.o
-                0x0000000010017656                sys_error_hook
+                0x0000000010017644        0xe Output\obj\projects\standard\main.o
+                0x0000000010017644                sys_error_hook
  .text.startup.main
-                0x0000000010017664       0x14 Output\obj\projects\standard\main.o
-                0x0000000010017664                main
+                0x0000000010017652       0x14 Output\obj\projects\standard\main.o
+                0x0000000010017652                main
  .text.func.aux.msg
-                0x0000000010017678       0x58 Output\obj\projects\standard\message\msg_aux.o
-                0x0000000010017678                func_aux_message
+                0x0000000010017666       0x58 Output\obj\projects\standard\message\msg_aux.o
+                0x0000000010017666                func_aux_message
  .text.func.bt.msg
-                0x00000000100176d0      0x2d2 Output\obj\projects\standard\message\msg_bt.o
-                0x00000000100176d0                func_bt_message
-                0x0000000010017942                func_bthid_message
+                0x00000000100176be      0x2d2 Output\obj\projects\standard\message\msg_bt.o
+                0x00000000100176be                func_bt_message
+                0x0000000010017930                func_bthid_message
  .text.func.btring.msg
-                0x00000000100179a2       0x84 Output\obj\projects\standard\message\msg_bt.o
-                0x00000000100179a2                sfunc_bt_ring_message
+                0x0000000010017990       0x84 Output\obj\projects\standard\message\msg_bt.o
+                0x0000000010017990                sfunc_bt_ring_message
  .text.sfunc_bt_call_message
-                0x0000000010017a26      0x1c8 Output\obj\projects\standard\message\msg_bt.o
-                0x0000000010017a26                sfunc_bt_call_message
+                0x0000000010017a14      0x1c8 Output\obj\projects\standard\message\msg_bt.o
+                0x0000000010017a14                sfunc_bt_call_message
  .text.func.fmrx.msg
-                0x0000000010017bee      0x13a Output\obj\projects\standard\message\msg_fmrx.o
-                0x0000000010017bee                func_fmrx_message
+                0x0000000010017bdc      0x13a Output\obj\projects\standard\message\msg_fmrx.o
+                0x0000000010017bdc                func_fmrx_message
  .text.func.music.msg
-                0x0000000010017d28      0x2f0 Output\obj\projects\standard\message\msg_music.o
-                0x0000000010017d28                func_music_message
+                0x0000000010017d16      0x2f0 Output\obj\projects\standard\message\msg_music.o
+                0x0000000010017d16                func_music_message
  .text.func.usbdev.msg
-                0x0000000010018018      0x12c Output\obj\projects\standard\message\msg_usbdev.o
-                0x0000000010018018                func_usbdev_message
+                0x0000000010018006      0x12c Output\obj\projects\standard\message\msg_usbdev.o
+                0x0000000010018006                func_usbdev_message
  .text.plugin_init
-                0x0000000010018144        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018144                plugin_init
+                0x0000000010018132        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018132                plugin_init
  .text.plugin_var_init
-                0x0000000010018146      0x142 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018146                plugin_var_init
+                0x0000000010018134      0x142 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018134                plugin_var_init
  .text.plugin_saradc_init
-                0x0000000010018288        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018288                plugin_saradc_init
+                0x0000000010018276        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018276                plugin_saradc_init
  .text.get_sddet_io_num
-                0x000000001001828a       0x1e Output\obj\projects\standard\plugin\plugin.o
-                0x000000001001828a                get_sddet_io_num
+                0x0000000010018278       0x1e Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018278                get_sddet_io_num
  .text.sleep_wakeup_config
-                0x00000000100182a8       0x8c Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100182a8                sleep_wakeup_config
+                0x0000000010018296       0x8c Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018296                sleep_wakeup_config
  .text.bt_hfp_ring_number_en
-                0x0000000010018334        0xc Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018334                bt_hfp_ring_number_en
+                0x0000000010018322        0xc Output\obj\projects\standard\plugin\plugin.o
+                0x0000000010018322                bt_hfp_ring_number_en
  .text.is_func_fmrx_en
-                0x0000000010018340        0xc Output\obj\projects\standard\plugin\plugin.o
-                0x0000000010018340                is_func_fmrx_en
+                0x000000001001832e        0xc Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001832e                is_func_fmrx_en
  .text.is_sleep_dac_off_enable
-                0x000000001001834c       0x20 Output\obj\projects\standard\plugin\plugin.o
-                0x000000001001834c                is_sleep_dac_off_enable
+                0x000000001001833a       0x20 Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001833a                is_sleep_dac_off_enable
  .text.maxvol_tone_play
-                0x000000001001836c       0x42 Output\obj\projects\standard\plugin\plugin.o
-                0x000000001001836c                maxvol_tone_play
+                0x000000001001835a       0x42 Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001835a                maxvol_tone_play
  .text.plugin_playmode_warning
-                0x00000000100183ae        0x2 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100183ae                plugin_playmode_warning
+                0x000000001001839c        0x2 Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001839c                plugin_playmode_warning
  .text.plugin_lowbat_vol_reduce
-                0x00000000100183b0        0xa Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100183b0                plugin_lowbat_vol_reduce
+                0x000000001001839e        0xa Output\obj\projects\standard\plugin\plugin.o
+                0x000000001001839e                plugin_lowbat_vol_reduce
  .text.plugin_lowbat_vol_recover
-                0x00000000100183ba        0x8 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100183ba                plugin_lowbat_vol_recover
+                0x00000000100183a8        0x8 Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100183a8                plugin_lowbat_vol_recover
  .text.plugin_music_eq
-                0x00000000100183c2       0x18 Output\obj\projects\standard\plugin\plugin.o
-                0x00000000100183c2                plugin_music_eq
+                0x00000000100183b0       0x18 Output\obj\projects\standard\plugin\plugin.o
+                0x00000000100183b0                plugin_music_eq
  .text.external_power_gpio_poweron
-                0x00000000100183da       0x44 Output\obj\projects\standard\port\port_key.o
-                0x00000000100183da                external_power_gpio_poweron
+                0x00000000100183c8       0x44 Output\obj\projects\standard\port\port_key.o
+                0x00000000100183c8                external_power_gpio_poweron
  .text.external_power_gpio_powerdown
-                0x000000001001841e       0x44 Output\obj\projects\standard\port\port_key.o
-                0x000000001001841e                external_power_gpio_powerdown
+                0x000000001001840c       0x44 Output\obj\projects\standard\port\port_key.o
+                0x000000001001840c                external_power_gpio_powerdown
  .text.led_disp
-                0x0000000010018462      0x246 Output\obj\projects\standard\port\port_led.o
-                0x0000000010018462                led_power_up
-                0x000000001001848c                led_power_down
-                0x00000000100184b4                led_bt_init
-                0x00000000100184de                led_bt_idle
-                0x0000000010018508                led_bt_reconnect
-                0x0000000010018532                led_tws_main_connected
-                0x0000000010018570                led_tws_slave_connected
-                0x00000000100185ae                led_bt_connected
-                0x00000000100185d8                led_bt_play
-                0x0000000010018602                led_bt_ring
-                0x000000001001862c                led_bt_call
-                0x0000000010018656                led_aux_play
-                0x0000000010018668                led_idle
-                0x000000001001866a                led_fm_scan
-                0x000000001001867c                led_music_busy
-                0x000000001001867e                led_record
-                0x0000000010018690                led_fm_play
-                0x0000000010018692                led_music_play
-                0x0000000010018694                led_bt_scan
-                0x0000000010018696                led_bt_pb_sleep
+                0x0000000010018450      0x246 Output\obj\projects\standard\port\port_led.o
+                0x0000000010018450                led_power_up
+                0x000000001001847a                led_power_down
+                0x00000000100184a2                led_bt_init
+                0x00000000100184cc                led_bt_idle
+                0x00000000100184f6                led_bt_reconnect
+                0x0000000010018520                led_tws_main_connected
+                0x000000001001855e                led_tws_slave_connected
+                0x000000001001859c                led_bt_connected
+                0x00000000100185c6                led_bt_play
+                0x00000000100185f0                led_bt_ring
+                0x000000001001861a                led_bt_call
+                0x0000000010018644                led_aux_play
+                0x0000000010018656                led_idle
+                0x0000000010018658                led_fm_scan
+                0x000000001001866a                led_music_busy
+                0x000000001001866c                led_record
+                0x000000001001867e                led_fm_play
+                0x0000000010018680                led_music_play
+                0x0000000010018682                led_bt_scan
+                0x0000000010018684                led_bt_pb_sleep
  .text.led_func_init
-                0x00000000100186a8       0xcc Output\obj\projects\standard\port\port_led.o
-                0x00000000100186a8                led_func_init
+                0x0000000010018696       0xcc Output\obj\projects\standard\port\port_led.o
+                0x0000000010018696                led_func_init
  .text.led_get_cfg_port
-                0x0000000010018774       0x22 Output\obj\projects\standard\port\port_led.o
-                0x0000000010018774                led_get_cfg_port
+                0x0000000010018762       0x22 Output\obj\projects\standard\port\port_led.o
+                0x0000000010018762                led_get_cfg_port
  .text.is_linein_enter_enable
-                0x0000000010018796       0x44 Output\obj\projects\standard\port\port_linein.o
-                0x0000000010018796                is_linein_enter_enable
+                0x0000000010018784       0x44 Output\obj\projects\standard\port\port_linein.o
+                0x0000000010018784                is_linein_enter_enable
  .text.linein_detect_init
-                0x00000000100187da       0xbe Output\obj\projects\standard\port\port_linein.o
-                0x00000000100187da                linein_detect_init
+                0x00000000100187c8       0xbe Output\obj\projects\standard\port\port_linein.o
+                0x00000000100187c8                linein_detect_init
  .text.loudspeaker_mute_init
-                0x0000000010018898       0x6a Output\obj\projects\standard\port\port_mute.o
-                0x0000000010018898                loudspeaker_mute_init
- .text.mute     0x0000000010018902       0x28 Output\obj\projects\standard\port\port_mute.o
-                0x0000000010018902                loudspeaker_disable
+                0x0000000010018886       0x6a Output\obj\projects\standard\port\port_mute.o
+                0x0000000010018886                loudspeaker_mute_init
+ .text.mute     0x00000000100188f0       0x28 Output\obj\projects\standard\port\port_mute.o
+                0x00000000100188f0                loudspeaker_disable
  .text.amplifier
-                0x000000001001892a       0xb8 Output\obj\projects\standard\port\port_mute.o
-                0x000000001001892a                amp_sel_cfg_d
-                0x0000000010018968                amp_sel_cfg_init
-                0x000000001001897e                amp_sel_cfg_ab
-                0x00000000100189be                amp_sel_cfg_dis
+                0x0000000010018918       0xb8 Output\obj\projects\standard\port\port_mute.o
+                0x0000000010018918                amp_sel_cfg_d
+                0x0000000010018956                amp_sel_cfg_init
+                0x000000001001896c                amp_sel_cfg_ab
+                0x00000000100189ac                amp_sel_cfg_dis
  .text.sdcard_detect_init
-                0x00000000100189e2       0x92 Output\obj\projects\standard\port\port_sd.o
-                0x00000000100189e2                sdcard_detect_init
- .text.sdcard   0x0000000010018a74       0xfe Output\obj\projects\standard\port\port_sd.o
-                0x0000000010018a74                sd_gpio_init
- .text.sdcard   0x0000000010018b72        0x2 Output\obj\projects\standard\port\port_sd1.o
-                0x0000000010018b72                sd1_gpio_init
+                0x00000000100189d0       0x92 Output\obj\projects\standard\port\port_sd.o
+                0x00000000100189d0                sdcard_detect_init
+ .text.sdcard   0x0000000010018a62       0xfe Output\obj\projects\standard\port\port_sd.o
+                0x0000000010018a62                sd_gpio_init
+ .text.sdcard   0x0000000010018b60        0x2 Output\obj\projects\standard\port\port_sd1.o
+                0x0000000010018b60                sd1_gpio_init
  .text.adpll_init
-                0x0000000010018b74       0xda ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018b74                adpll_init
+                0x0000000010018b62       0xda ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018b62                adpll_init
  .text.adpll_spr_set
-                0x0000000010018c4e       0x9c ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018c4e                adpll_spr_set
- .text.audio    0x0000000010018cea      0xa68 ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010018cea                set_aux_analog_gain
-                0x0000000010018d3a                set_mic_analog_gain
-                0x0000000010018d90                aux_analog_channel_select
-                0x0000000010018f1a                aux_analog_channel_close
-                0x0000000010018fde                analog_mic2pa_start
-                0x0000000010019078                analog_aux2pa_start
-                0x00000000100191f8                analog_aux2pa_exit
-                0x0000000010019288                analog_aux2pa_dig2anl_enable
-                0x00000000100192be                analog_aux2pa_dig2anl_disable
-                0x00000000100192f8                sdadc_analog_aux_start
-                0x00000000100193f8                aux_shorting_enable
-                0x0000000010019436                aux_shorting_disable
-                0x000000001001947a                aux2pa_sdadc_enable
-                0x000000001001954a                sdadc_analog_aux_exit
-                0x00000000100195b0                sdadc_analog_mic_start
-                0x000000001001970a                sdadc_analog_mic_exit
+                0x0000000010018c3c       0x9c ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018c3c                adpll_spr_set
+ .text.audio    0x0000000010018cd8      0xa68 ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010018cd8                set_aux_analog_gain
+                0x0000000010018d28                set_mic_analog_gain
+                0x0000000010018d7e                aux_analog_channel_select
+                0x0000000010018f08                aux_analog_channel_close
+                0x0000000010018fcc                analog_mic2pa_start
+                0x0000000010019066                analog_aux2pa_start
+                0x00000000100191e6                analog_aux2pa_exit
+                0x0000000010019276                analog_aux2pa_dig2anl_enable
+                0x00000000100192ac                analog_aux2pa_dig2anl_disable
+                0x00000000100192e6                sdadc_analog_aux_start
+                0x00000000100193e6                aux_shorting_enable
+                0x0000000010019424                aux_shorting_disable
+                0x0000000010019468                aux2pa_sdadc_enable
+                0x0000000010019538                sdadc_analog_aux_exit
+                0x000000001001959e                sdadc_analog_mic_start
+                0x00000000100196f8                sdadc_analog_mic_exit
  .text.aux_channel_mute
-                0x0000000010019752       0x10 ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010019752                aux_channel_mute
+                0x0000000010019740       0x10 ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010019740                aux_channel_mute
  .text.aux_channel_unmute
-                0x0000000010019762       0x12 ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010019762                aux_channel_unmute
+                0x0000000010019750       0x12 ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010019750                aux_channel_unmute
+ *fill*         0x0000000010019762        0x2 
  .text.audio.table
-                0x0000000010019774       0x1a ..\..\platform\libs\libplatform.a(audio.o)
-                0x0000000010019774                mic_anl_table
+                0x0000000010019764       0x1a ..\..\platform\libs\libplatform.a(audio.o)
+                0x0000000010019764                mic_anl_table
  .text.music_eq_fade_out
-                0x000000001001978e       0x1c ..\..\platform\libs\libplatform.a(audio_eq.o)
- .text.eq.msc   0x00000000100197aa      0x34e ..\..\platform\libs\libplatform.a(audio_eq.o)
-                0x00000000100197aa                music_set_eq_is_done
-                0x00000000100197b8                music_set_eq_gain
-                0x00000000100197c0                music_set_eq
-                0x0000000010019a88                music_set_eq_by_res
-                0x0000000010019af4                music_eq_off
- .text.uart     0x0000000010019af8       0x40 ..\..\platform\libs\libplatform.a(audio_eq.o)
-                0x0000000010019af8                eq_huart_putcs
+                0x000000001001977e       0x1c ..\..\platform\libs\libplatform.a(audio_eq.o)
+ .text.eq.msc   0x000000001001979a      0x34e ..\..\platform\libs\libplatform.a(audio_eq.o)
+                0x000000001001979a                music_set_eq_is_done
+                0x00000000100197a8                music_set_eq_gain
+                0x00000000100197b0                music_set_eq
+                0x0000000010019a78                music_set_eq_by_res
+                0x0000000010019ae4                music_eq_off
+ .text.uart     0x0000000010019ae8       0x40 ..\..\platform\libs\libplatform.a(audio_eq.o)
+                0x0000000010019ae8                eq_huart_putcs
  .text.huart_eq_init
-                0x0000000010019b38       0x96 ..\..\platform\libs\libplatform.a(audio_eq.o)
-                0x0000000010019b38                huart_eq_init
- .text.dac      0x0000000010019bce      0xe3a ..\..\platform\libs\libplatform.a(dac.o)
-                0x0000000010019c20                dac_analog_fade_in
-                0x0000000010019c60                dac_analog_fade_out
-                0x0000000010019cea                dac_is_fade_in_done
-                0x0000000010019cfe                dac_fade_in_wait
-                0x0000000010019d4c                dac_fade_in
-                0x0000000010019dd2                dac_fade_wait
-                0x0000000010019e0c                dac_fade_out
-                0x0000000010019e84                dac_set_volume
-                0x0000000010019efa                dac_set_dvol
-                0x0000000010019f62                dac_digital_enable
-                0x0000000010019fae                dac_digital_disable
-                0x0000000010019ff8                dac_cb_init
-                0x000000001001a106                dac_power_fade2min
-                0x000000001001a138                dac_power_fade2max
-                0x000000001001a162                dac_start_1
-                0x000000001001a31a                dac_start_2
-                0x000000001001a412                dac_set_mono
-                0x000000001001a466                dac_set_dual
-                0x000000001001a4b0                dac_channel_enable
-                0x000000001001a4c2                dac_channel_disable
-                0x000000001001a4da                dac_mix2mono
-                0x000000001001a50a                dac_mix2mono_invert
-                0x000000001001a540                dac_channel_configure
-                0x000000001001a5c0                dac_power_on
-                0x000000001001a644                dac_mono_init
-                0x000000001001a6a4                dac_obuf_init
-                0x000000001001a6f2                dac_restart
-                0x000000001001a72a                dac_src1_spr_set
-                0x000000001001a75c                dac_src1_init
-                0x000000001001a7a2                dac_power_off
-                0x000000001001a882                dac_w4_aubuf_empty
-                0x000000001001a8b6                dac_aubufsize_set
-                0x000000001001a952                dac_aubuf_clr
-                0x000000001001a992                src1_put_zero
-                0x000000001001a9b2                src1_w4_aubuf_empty
-                0x000000001001a9fc                music_src_set_volume
- .text.dac.bt   0x000000001001aa08       0x76 ..\..\platform\libs\libplatform.a(dac.o)
-                0x000000001001aa08                dac_switch_for_bt
- .text.dac.dnr  0x000000001001aa7e       0x64 ..\..\platform\libs\libplatform.a(dac_dnr.o)
-                0x000000001001aa7e                dac_dnr_init
-                0x000000001001aa9e                mic_first_init
-                0x000000001001aac0                mic_dnr_init
- .text.dac      0x000000001001aae2       0x2a ..\..\platform\libs\libplatform.a(dac_dnr.o)
-                0x000000001001aae2                dac_dnr_set_sta
-                0x000000001001aafc                dac_dnr_get_sta
- .text.sdadc    0x000000001001ab0c      0x266 ..\..\platform\libs\libplatform.a(sdadc.o)
-                0x000000001001ab0c                sdadc_spr_set
-                0x000000001001ab5a                sdadc_set_digital_gain
-                0x000000001001ab72                sdadc_init
-                0x000000001001ac88                sdadc_start
-                0x000000001001acf4                sdadc_exit
+                0x0000000010019b28       0x96 ..\..\platform\libs\libplatform.a(audio_eq.o)
+                0x0000000010019b28                huart_eq_init
+ .text.dac      0x0000000010019bbe      0xe3a ..\..\platform\libs\libplatform.a(dac.o)
+                0x0000000010019c10                dac_analog_fade_in
+                0x0000000010019c50                dac_analog_fade_out
+                0x0000000010019cda                dac_is_fade_in_done
+                0x0000000010019cee                dac_fade_in_wait
+                0x0000000010019d3c                dac_fade_in
+                0x0000000010019dc2                dac_fade_wait
+                0x0000000010019dfc                dac_fade_out
+                0x0000000010019e74                dac_set_volume
+                0x0000000010019eea                dac_set_dvol
+                0x0000000010019f52                dac_digital_enable
+                0x0000000010019f9e                dac_digital_disable
+                0x0000000010019fe8                dac_cb_init
+                0x000000001001a0f6                dac_power_fade2min
+                0x000000001001a128                dac_power_fade2max
+                0x000000001001a152                dac_start_1
+                0x000000001001a30a                dac_start_2
+                0x000000001001a402                dac_set_mono
+                0x000000001001a456                dac_set_dual
+                0x000000001001a4a0                dac_channel_enable
+                0x000000001001a4b2                dac_channel_disable
+                0x000000001001a4ca                dac_mix2mono
+                0x000000001001a4fa                dac_mix2mono_invert
+                0x000000001001a530                dac_channel_configure
+                0x000000001001a5b0                dac_power_on
+                0x000000001001a634                dac_mono_init
+                0x000000001001a694                dac_obuf_init
+                0x000000001001a6e2                dac_restart
+                0x000000001001a71a                dac_src1_spr_set
+                0x000000001001a74c                dac_src1_init
+                0x000000001001a792                dac_power_off
+                0x000000001001a872                dac_w4_aubuf_empty
+                0x000000001001a8a6                dac_aubufsize_set
+                0x000000001001a942                dac_aubuf_clr
+                0x000000001001a982                src1_put_zero
+                0x000000001001a9a2                src1_w4_aubuf_empty
+                0x000000001001a9ec                music_src_set_volume
+ .text.dac.bt   0x000000001001a9f8       0x76 ..\..\platform\libs\libplatform.a(dac.o)
+                0x000000001001a9f8                dac_switch_for_bt
+ .text.dac.dnr  0x000000001001aa6e       0x64 ..\..\platform\libs\libplatform.a(dac_dnr.o)
+                0x000000001001aa6e                dac_dnr_init
+                0x000000001001aa8e                mic_first_init
+                0x000000001001aab0                mic_dnr_init
+ .text.dac      0x000000001001aad2       0x2a ..\..\platform\libs\libplatform.a(dac_dnr.o)
+                0x000000001001aad2                dac_dnr_set_sta
+                0x000000001001aaec                dac_dnr_get_sta
+ .text.sdadc    0x000000001001aafc      0x266 ..\..\platform\libs\libplatform.a(sdadc.o)
+                0x000000001001aafc                sdadc_spr_set
+                0x000000001001ab4a                sdadc_set_digital_gain
+                0x000000001001ab62                sdadc_init
+                0x000000001001ac78                sdadc_start
+                0x000000001001ace4                sdadc_exit
  .text.sdadc_var_init
-                0x000000001001ad72       0x1c ..\..\platform\libs\libplatform.a(sdadc.o)
-                0x000000001001ad72                sdadc_var_init
- *fill*         0x000000001001ad8e        0x2 
+                0x000000001001ad62       0x1c ..\..\platform\libs\libplatform.a(sdadc.o)
+                0x000000001001ad62                sdadc_var_init
+ *fill*         0x000000001001ad7e        0x2 
  .text.sdadc.table
-                0x000000001001ad90        0xa ..\..\platform\libs\libplatform.a(sdadc.o)
-                0x000000001001ad90                sdadc_spr_index_tbl
+                0x000000001001ad80        0xa ..\..\platform\libs\libplatform.a(sdadc.o)
+                0x000000001001ad80                sdadc_spr_index_tbl
  .text.stack.api
-                0x000000001001ad9a       0x2c ..\..\platform\libs\libplatform.a(bt.o)
-                0x000000001001ad9a                bt_send_msg
+                0x000000001001ad8a       0x2c ..\..\platform\libs\libplatform.a(bt.o)
+                0x000000001001ad8a                bt_send_msg
  .text.aec_init
-                0x000000001001adc6      0x178 ..\..\platform\libs\libplatform.a(bt_aec.o)
-                0x000000001001adc6                aec_init
- .text.alc      0x000000001001af3e      0x1b8 ..\..\platform\libs\libplatform.a(bt_alc.o)
-                0x000000001001af3e                alc_init
- *fill*         0x000000001001b0f6        0x2 
+                0x000000001001adb6      0x178 ..\..\platform\libs\libplatform.a(bt_aec.o)
+                0x000000001001adb6                aec_init
+ .text.alc      0x000000001001af2e      0x1b8 ..\..\platform\libs\libplatform.a(bt_alc.o)
+                0x000000001001af2e                alc_init
+ *fill*         0x000000001001b0e6        0x2 
  .text.alc.table
-                0x000000001001b0f8       0x1a ..\..\platform\libs\libplatform.a(bt_alc.o)
-                0x000000001001b0f8                tbl_alc_fade_delay
-                0x000000001001b104                tbl_alc_fade_step
+                0x000000001001b0e8       0x1a ..\..\platform\libs\libplatform.a(bt_alc.o)
+                0x000000001001b0e8                tbl_alc_fade_delay
+                0x000000001001b0f4                tbl_alc_fade_step
  .text.bt_voice_init
-                0x000000001001b112       0x46 ..\..\platform\libs\libplatform.a(bt_sco.o)
-                0x000000001001b112                bt_voice_init
+                0x000000001001b102       0x46 ..\..\platform\libs\libplatform.a(bt_sco.o)
+                0x000000001001b102                bt_voice_init
  .text.bt_voice_exit
-                0x000000001001b158       0x4e ..\..\platform\libs\libplatform.a(bt_sco.o)
-                0x000000001001b158                bt_voice_exit
+                0x000000001001b148       0x4e ..\..\platform\libs\libplatform.a(bt_sco.o)
+                0x000000001001b148                bt_voice_exit
  .text.cm_next_freepage
-                0x000000001001b1a6       0x34 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b196       0x34 ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_loadpage
-                0x000000001001b1da       0x16 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b1ca       0x16 ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_write_cfgpage
-                0x000000001001b1f0       0x72 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b1e0       0x72 ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_check_loadpage
-                0x000000001001b262       0x9e ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b252       0x9e ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_check_page
-                0x000000001001b300       0x7a ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b2f0       0x7a ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_movepage
-                0x000000001001b37a       0x50 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b36a       0x50 ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_release
-                0x000000001001b3ca       0x74 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b3ba       0x74 ..\..\platform\libs\libplatform.a(cm.o)
  .text.cm_get_startaddr
-                0x000000001001b43e        0x8 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b43e                cm_get_startaddr
+                0x000000001001b42e        0x8 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b42e                cm_get_startaddr
  .text.cm_get_area
-                0x000000001001b446       0x12 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b446                cm_get_area
+                0x000000001001b436       0x12 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b436                cm_get_area
  .text.cm_release_all
-                0x000000001001b458       0xb0 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b458                cm_release_all
- .text.cm_sync  0x000000001001b508       0x6a ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b508                cm_sync
- .text.cm_read  0x000000001001b572       0x58 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b572                cm_read
+                0x000000001001b448       0xb0 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b448                cm_release_all
+ .text.cm_sync  0x000000001001b4f8       0x6a ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b4f8                cm_sync
+ .text.cm_read  0x000000001001b562       0x58 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b562                cm_read
  .text.cm_write
-                0x000000001001b5ca       0x62 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b5ca                cm_write
- .text.cm_init  0x000000001001b62c      0x1e4 ..\..\platform\libs\libplatform.a(cm.o)
-                0x000000001001b62c                cm_init
+                0x000000001001b5ba       0x62 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b5ba                cm_write
+ .text.cm_init  0x000000001001b61c      0x1e4 ..\..\platform\libs\libplatform.a(cm.o)
+                0x000000001001b61c                cm_init
  .text.xcfg_init
-                0x000000001001b810       0x5e ..\..\platform\libs\libplatform.a(xcfg.o)
-                0x000000001001b810                xcfg_init
+                0x000000001001b800       0x5e ..\..\platform\libs\libplatform.a(xcfg.o)
+                0x000000001001b800                xcfg_init
  .text.sd_disable
-                0x000000001001b86e       0x18 ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b86e                sd_disable
+                0x000000001001b85e       0x18 ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b85e                sd_disable
  .text.sd_disable_user
-                0x000000001001b886       0x3a ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b886                sd_disable_user
+                0x000000001001b876       0x3a ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b876                sd_disable_user
  .text.sd_enable_user
-                0x000000001001b8c0       0x2a ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b8c0                sd_enable_user
+                0x000000001001b8b0       0x2a ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b8b0                sd_enable_user
  .text.usb_disable
-                0x000000001001b8ea       0x24 ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b8ea                usb_disable
+                0x000000001001b8da       0x24 ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b8da                usb_disable
  .text.device.init
-                0x000000001001b90e       0xd0 ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b90e                dev_init
-                0x000000001001b986                dev_delay_times
-                0x000000001001b998                dev_delay_online_times
-                0x000000001001b9a6                dev_delay_offline_times
-                0x000000001001b9b4                dev_clr_sta
- .text.device   0x000000001001b9de       0x38 ..\..\platform\libs\libplatform.a(device.o)
-                0x000000001001b9de                dev_udisk_activation_try
- .text.fmrx     0x000000001001ba16      0x556 ..\..\platform\libs\libplatform.a(fmrx.o)
-                0x000000001001ba70                fmrx_power_off
-                0x000000001001baf0                fmrx_digital_stop
-                0x000000001001bb08                fmrx_digital_start
-                0x000000001001bb4c                fmrx_sel_cs_filter
-                0x000000001001bb66                fmrx_set_freq
-                0x000000001001bbda                fmrx_cur_freq_is_stereo
-                0x000000001001bc5e                fmrx_check_freq
-                0x000000001001bf6a                fmrx_logger_out
+                0x000000001001b8fe       0xd0 ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b8fe                dev_init
+                0x000000001001b976                dev_delay_times
+                0x000000001001b988                dev_delay_online_times
+                0x000000001001b996                dev_delay_offline_times
+                0x000000001001b9a4                dev_clr_sta
+ .text.device   0x000000001001b9ce       0x38 ..\..\platform\libs\libplatform.a(device.o)
+                0x000000001001b9ce                dev_udisk_activation_try
+ .text.fmrx     0x000000001001ba06      0x556 ..\..\platform\libs\libplatform.a(fmrx.o)
+                0x000000001001ba60                fmrx_power_off
+                0x000000001001bae0                fmrx_digital_stop
+                0x000000001001baf8                fmrx_digital_start
+                0x000000001001bb3c                fmrx_sel_cs_filter
+                0x000000001001bb56                fmrx_set_freq
+                0x000000001001bbca                fmrx_cur_freq_is_stereo
+                0x000000001001bc4e                fmrx_check_freq
+                0x000000001001bf5a                fmrx_logger_out
  .text.fmrx.init
-                0x000000001001bf6c       0xae ..\..\platform\libs\libplatform.a(fmrx.o)
-                0x000000001001bf6c                fmrx_power_on
+                0x000000001001bf5c       0xae ..\..\platform\libs\libplatform.a(fmrx.o)
+                0x000000001001bf5c                fmrx_power_on
  .text.fmrx_set_pll
-                0x000000001001c01a      0x222 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
-                0x000000001001c01a                fmrx_set_pll
+                0x000000001001c00a      0x222 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
+                0x000000001001c00a                fmrx_set_pll
  .text.fmrx_get_rf_res
-                0x000000001001c23c        0x4 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
-                0x000000001001c23c                fmrx_get_rf_res
+                0x000000001001c22c        0x4 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
+                0x000000001001c22c                fmrx_get_rf_res
  .text.fmrx_analog_init
-                0x000000001001c240      0x3ba ..\..\platform\libs\libplatform.a(fmrx_ang.o)
-                0x000000001001c240                fmrx_analog_init
+                0x000000001001c230      0x3ba ..\..\platform\libs\libplatform.a(fmrx_ang.o)
+                0x000000001001c230                fmrx_analog_init
  .text.fmrx_set_rf_cap
-                0x000000001001c5fa       0x16 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
-                0x000000001001c5fa                fmrx_set_rf_cap
+                0x000000001001c5ea       0x16 ..\..\platform\libs\libplatform.a(fmrx_ang.o)
+                0x000000001001c5ea                fmrx_set_rf_cap
  .text.platform_main
-                0x000000001001c610      0x13a ..\..\platform\libs\libplatform.a(main.o)
-                0x000000001001c610                platform_main
+                0x000000001001c600      0x13a ..\..\platform\libs\libplatform.a(main.o)
+                0x000000001001c600                platform_main
  .text.main_startup
-                0x000000001001c74a       0x3a ..\..\platform\libs\libplatform.a(main.o)
-                0x000000001001c74a                main_startup
- .text.music    0x000000001001c784      0x3ba ..\..\platform\libs\libplatform.a(music.o)
-                0x000000001001c7f4                music_set_total_time
-                0x000000001001c7fc                music_set_cur_time
-                0x000000001001c804                music_get_total_time
-                0x000000001001c848                music_get_cur_time
-                0x000000001001c850                mp3_get_cbr_total_time
-                0x000000001001c86c                get_music_dec_sta
-                0x000000001001c878                get_music_bitrate
-                0x000000001001c886                music_slot_kick
-                0x000000001001c8c4                music_control
-                0x000000001001c9c8                music_decode
-                0x000000001001ca2e                thread_music_entry
+                0x000000001001c73a       0x3a ..\..\platform\libs\libplatform.a(main.o)
+                0x000000001001c73a                main_startup
+ .text.music    0x000000001001c774      0x3ba ..\..\platform\libs\libplatform.a(music.o)
+                0x000000001001c7e4                music_set_total_time
+                0x000000001001c7ec                music_set_cur_time
+                0x000000001001c7f4                music_get_total_time
+                0x000000001001c838                music_get_cur_time
+                0x000000001001c840                mp3_get_cbr_total_time
+                0x000000001001c85c                get_music_dec_sta
+                0x000000001001c868                get_music_bitrate
+                0x000000001001c876                music_slot_kick
+                0x000000001001c8b4                music_control
+                0x000000001001c9b8                music_decode
+                0x000000001001ca1e                thread_music_entry
  .text.music.init
-                0x000000001001cb3e      0x3a4 ..\..\platform\libs\libplatform.a(music.o)
-                0x000000001001cb52                wav_decode_init
-                0x000000001001cbc4                mp3_decode_init
-                0x000000001001cc34                sbcio_decode_init
-                0x000000001001ccb2                ape_decode_init
-                0x000000001001cd0a                flac_decode_init
-                0x000000001001cd62                wma_decode_init
-                0x000000001001cdba                spi_mp3_decode_init
-                0x000000001001ce22                sbc_decode_init
-                0x000000001001ce84                music_decode_init
-                0x000000001001ceb4                sbc_decode_exit
- .text.fs_lock  0x000000001001cee2       0x12 ..\..\platform\libs\libplatform.a(music.o)
-                0x000000001001cee2                fs_lock
+                0x000000001001cb2e      0x3a4 ..\..\platform\libs\libplatform.a(music.o)
+                0x000000001001cb42                wav_decode_init
+                0x000000001001cbb4                mp3_decode_init
+                0x000000001001cc24                sbcio_decode_init
+                0x000000001001cca2                ape_decode_init
+                0x000000001001ccfa                flac_decode_init
+                0x000000001001cd52                wma_decode_init
+                0x000000001001cdaa                spi_mp3_decode_init
+                0x000000001001ce12                sbc_decode_init
+                0x000000001001ce74                music_decode_init
+                0x000000001001cea4                sbc_decode_exit
+ .text.fs_lock  0x000000001001ced2       0x12 ..\..\platform\libs\libplatform.a(music.o)
+                0x000000001001ced2                fs_lock
  .text.fs_unlock
-                0x000000001001cef4       0x10 ..\..\platform\libs\libplatform.a(music.o)
-                0x000000001001cef4                fs_unlock
- .text.spires   0x000000001001cf04      0x142 ..\..\platform\libs\libplatform.a(music_res.o)
-                0x000000001001cf04                spi_res_decrypt
-                0x000000001001cf94                register_spi_read_function
-                0x000000001001cf9c                spi_stream_read
-                0x000000001001d000                spi_stream_seek
-                0x000000001001d024                spi_save_file_info
-                0x000000001001d034                spi_load_file_info
+                0x000000001001cee4       0x10 ..\..\platform\libs\libplatform.a(music.o)
+                0x000000001001cee4                fs_unlock
+ .text.spires   0x000000001001cef4      0x142 ..\..\platform\libs\libplatform.a(music_res.o)
+                0x000000001001cef4                spi_res_decrypt
+                0x000000001001cf84                register_spi_read_function
+                0x000000001001cf8c                spi_stream_read
+                0x000000001001cff0                spi_stream_seek
+                0x000000001001d014                spi_save_file_info
+                0x000000001001d024                spi_load_file_info
  .text.mp3_res_play_kick
-                0x000000001001d046       0x98 ..\..\platform\libs\libplatform.a(music_res.o)
-                0x000000001001d046                mp3_res_play_kick
+                0x000000001001d036       0x98 ..\..\platform\libs\libplatform.a(music_res.o)
+                0x000000001001d036                mp3_res_play_kick
  .text.mp3_res_play_exit
-                0x000000001001d0de        0xa ..\..\platform\libs\libplatform.a(music_res.o)
-                0x000000001001d0de                mp3_res_play_exit
- *fill*         0x000000001001d0e8        0x0 
+                0x000000001001d0ce        0xa ..\..\platform\libs\libplatform.a(music_res.o)
+                0x000000001001d0ce                mp3_res_play_exit
+ *fill*         0x000000001001d0d8        0x0 
  .text.spires.table
-                0x000000001001d0e8       0x22 ..\..\platform\libs\libplatform.a(music_res.o)
-                0x000000001001d0e8                encrypt_header_tbl
+                0x000000001001d0d8       0x22 ..\..\platform\libs\libplatform.a(music_res.o)
+                0x000000001001d0d8                encrypt_header_tbl
  .text.msc_stream_start
-                0x000000001001d10a       0x48 ..\..\platform\libs\libplatform.a(stream.o)
-                0x000000001001d10a                msc_stream_start
+                0x000000001001d0fa       0x48 ..\..\platform\libs\libplatform.a(stream.o)
+                0x000000001001d0fa                msc_stream_start
  .text.msc_stream_end
-                0x000000001001d152       0x68 ..\..\platform\libs\libplatform.a(stream.o)
-                0x000000001001d152                msc_stream_end
+                0x000000001001d142       0x68 ..\..\platform\libs\libplatform.a(stream.o)
+                0x000000001001d142                msc_stream_end
  .text.music_stream_var_init
-                0x000000001001d1ba       0x14 ..\..\platform\libs\libplatform.a(stream.o)
-                0x000000001001d1ba                music_stream_var_init
+                0x000000001001d1aa       0x14 ..\..\platform\libs\libplatform.a(stream.o)
+                0x000000001001d1aa                music_stream_var_init
  .text.sys_irq_init
-                0x000000001001d1ce       0xac ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d1ce                sys_irq_init
+                0x000000001001d1be       0xac ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d1be                sys_irq_init
  .text.timer0_init
-                0x000000001001d27a       0x64 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d27a                timer0_init
+                0x000000001001d26a       0x64 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d26a                timer0_init
  .text.soft_irq_init
-                0x000000001001d2de       0x42 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d2de                soft_irq_init
+                0x000000001001d2ce       0x42 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d2ce                soft_irq_init
  .text.bthw_irq_init
-                0x000000001001d320       0x3c ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d320                bthw_irq_init
+                0x000000001001d310       0x3c ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d310                bthw_irq_init
  .text.sd0_irq_init
-                0x000000001001d35c       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d35c                sd0_irq_init
+                0x000000001001d34c       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d34c                sd0_irq_init
  .text.usb_irq_init
-                0x000000001001d390       0x28 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d390                usb_irq_init
+                0x000000001001d380       0x28 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d380                usb_irq_init
  .text.sdadc_irq_init
-                0x000000001001d3b8       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d3b8                sdadc_irq_init
+                0x000000001001d3a8       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d3a8                sdadc_irq_init
  .text.tws_irq_init
-                0x000000001001d3ec       0x36 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d3ec                tws_irq_init
+                0x000000001001d3dc       0x36 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d3dc                tws_irq_init
  .text.aubuf_irq_init
-                0x000000001001d422       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d422                aubuf_irq_init
+                0x000000001001d412       0x34 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d412                aubuf_irq_init
  .text.huart_irq_init
-                0x000000001001d456       0x36 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x000000001001d456                huart_irq_init
+                0x000000001001d446       0x36 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x000000001001d446                huart_irq_init
  .text.thread_main_entry
-                0x000000001001d48c      0x214 ..\..\platform\libs\libplatform.a(startup.o)
+                0x000000001001d47c      0x214 ..\..\platform\libs\libplatform.a(startup.o)
  .text.sys_set_tmr_enable
-                0x000000001001d6a0        0xe ..\..\platform\libs\libplatform.a(startup.o)
-                0x000000001001d6a0                sys_set_tmr_enable
+                0x000000001001d690        0xe ..\..\platform\libs\libplatform.a(startup.o)
+                0x000000001001d690                sys_set_tmr_enable
  .text.thread_idle_create
-                0x000000001001d6ae       0x3c ..\..\platform\libs\libplatform.a(startup.o)
-                0x000000001001d6ae                thread_idle_create
+                0x000000001001d69e       0x3c ..\..\platform\libs\libplatform.a(startup.o)
+                0x000000001001d69e                thread_idle_create
  .text.startup.init
-                0x000000001001d6ea      0x150 ..\..\platform\libs\libplatform.a(startup.o)
-                0x000000001001d6ea                platform_init
-                0x000000001001d6ec                sys_startup
+                0x000000001001d6da      0x150 ..\..\platform\libs\libplatform.a(startup.o)
+                0x000000001001d6da                platform_init
+                0x000000001001d6dc                sys_startup
  .text.sys_hook_init
-                0x000000001001d83a        0x2 ..\..\platform\libs\libplatform.a(sys_hook.o)
-                0x000000001001d83a                sys_hook_init
+                0x000000001001d82a        0x2 ..\..\platform\libs\libplatform.a(sys_hook.o)
+                0x000000001001d82a                sys_hook_init
  .text.sd_disk_init
-                0x000000001001d83c       0xdc ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d83c                sd_disk_init
+                0x000000001001d82c       0xdc ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d82c                sd_disk_init
  .text.sd_disk_switch
-                0x000000001001d918       0x42 ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d918                sd_disk_switch
+                0x000000001001d908       0x42 ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d908                sd_disk_switch
  .text.ude_sd_remove
-                0x000000001001d95a       0x10 ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d95a                ude_sd_remove
+                0x000000001001d94a       0x10 ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d94a                ude_sd_remove
  .text.sd0_init
-                0x000000001001d96a        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d96a                sd0_init
+                0x000000001001d95a        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d95a                sd0_init
  .text.sd0_stop
-                0x000000001001d974        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d974                sd0_stop
+                0x000000001001d964        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d964                sd0_stop
  .text.sd0_read
-                0x000000001001d980        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d980                sd0_read
+                0x000000001001d970        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d970                sd0_read
  .text.sd0_read_start
-                0x000000001001d98e        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d98e                sd0_read_start
+                0x000000001001d97e        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d97e                sd0_read_start
  .text.sd0_read_kick
-                0x000000001001d99c        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d99c                sd0_read_kick
+                0x000000001001d98c        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d98c                sd0_read_kick
  .text.sd0_read_wait
-                0x000000001001d9a8        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9a8                sd0_read_wait
+                0x000000001001d998        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d998                sd0_read_wait
  .text.sd0_write
-                0x000000001001d9b2        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9b2                sd0_write
+                0x000000001001d9a2        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9a2                sd0_write
  .text.sd0_write_start
-                0x000000001001d9c0        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9c0                sd0_write_start
+                0x000000001001d9b0        0xe ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9b0                sd0_write_start
  .text.sd0_write_kick
-                0x000000001001d9ce        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9ce                sd0_write_kick
+                0x000000001001d9be        0xc ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9be                sd0_write_kick
  .text.sd0_write_wait
-                0x000000001001d9da        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9da                sd0_write_wait
+                0x000000001001d9ca        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9ca                sd0_write_wait
  .text.sd0_rw_end
-                0x000000001001d9e4       0x10 ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9e4                sd0_rw_end
+                0x000000001001d9d4       0x10 ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9d4                sd0_rw_end
  .text.sd0_go_idle_state
-                0x000000001001d9f4        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9f4                sd0_go_idle_state
+                0x000000001001d9e4        0xa ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9e4                sd0_go_idle_state
  .text.sd0_set_invalid_state
-                0x000000001001d9fe       0x36 ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x000000001001d9fe                sd0_set_invalid_state
+                0x000000001001d9ee       0x36 ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x000000001001d9ee                sd0_set_invalid_state
  .text.debug_set
-                0x000000001001da34        0xe ..\..\platform\libs\libplatform.a(debug.o)
-                0x000000001001da34                debug_set
+                0x000000001001da24        0xe ..\..\platform\libs\libplatform.a(debug.o)
+                0x000000001001da24                debug_set
  .text.gpio_cfg_init
-                0x000000001001da42       0x62 ..\..\platform\libs\libplatform.a(gpio.o)
-                0x000000001001da42                gpio_cfg_init
+                0x000000001001da32       0x62 ..\..\platform\libs\libplatform.a(gpio.o)
+                0x000000001001da32                gpio_cfg_init
  .text.lowpwr.sleep
-                0x000000001001daa4      0x316 ..\..\platform\libs\libplatform.a(gpio.o)
-                0x000000001001daa4                adcch_io_wakeup_config
-                0x000000001001dbaa                wakeup_gpio_config
-                0x000000001001dcea                wakeup_wko_config
-                0x000000001001dd2e                wakeup_udisk_config
-                0x000000001001dd80                wakeup_disable
+                0x000000001001da94      0x316 ..\..\platform\libs\libplatform.a(gpio.o)
+                0x000000001001da94                adcch_io_wakeup_config
+                0x000000001001db9a                wakeup_gpio_config
+                0x000000001001dcda                wakeup_wko_config
+                0x000000001001dd1e                wakeup_udisk_config
+                0x000000001001dd70                wakeup_disable
  .text.bsp.key.init
-                0x000000001001ddba       0x36 ..\..\platform\libs\libplatform.a(key.o)
-                0x000000001001ddba                key_var_init
+                0x000000001001ddaa       0x36 ..\..\platform\libs\libplatform.a(key.o)
+                0x000000001001ddaa                key_var_init
  .text.lock_init
-                0x000000001001ddf0       0x14 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001ddf0                lock_init
+                0x000000001001dde0       0x14 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001dde0                lock_init
  .text.unlock_whcode
-                0x000000001001de04       0x3a ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001de04                unlock_whcode
+                0x000000001001ddf4       0x3a ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001ddf4                unlock_whcode
  .text.lock_whcode
-                0x000000001001de3e       0x56 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001de3e                lock_whcode
+                0x000000001001de2e       0x56 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001de2e                lock_whcode
  .text.unlock_dcode
-                0x000000001001de94       0x4c ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001de94                unlock_dcode
+                0x000000001001de84       0x4c ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001de84                unlock_dcode
  .text.lock_dcode
-                0x000000001001dee0       0x56 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001dee0                lock_dcode
+                0x000000001001ded0       0x56 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001ded0                lock_dcode
  .text.lock_code_sbcdec
-                0x000000001001df36       0x14 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001df36                lock_code_sbcdec
+                0x000000001001df26       0x14 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df26                lock_code_sbcdec
  .text.lock_code_bt_sleep
-                0x000000001001df4a       0x20 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001df4a                lock_code_bt_sleep
+                0x000000001001df3a       0x20 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df3a                lock_code_bt_sleep
  .text.unlock_code_bt_sleep
-                0x000000001001df6a       0x10 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001df6a                unlock_code_bt_sleep
+                0x000000001001df5a       0x10 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df5a                unlock_code_bt_sleep
  .text.lock_code_mp3dec
-                0x000000001001df7a       0x14 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001df7a                lock_code_mp3dec
+                0x000000001001df6a       0x14 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df6a                lock_code_mp3dec
  .text.lock_code_wavdec
-                0x000000001001df8e       0x14 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001df8e                lock_code_wavdec
+                0x000000001001df7e       0x14 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df7e                lock_code_wavdec
  .text.lock_code_usbdev
-                0x000000001001dfa2       0x5c ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001dfa2                lock_code_usbdev
+                0x000000001001df92       0x5c ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001df92                lock_code_usbdev
  .text.lock_code_bt_voice
-                0x000000001001dffe       0x5c ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001dffe                lock_code_bt_voice
+                0x000000001001dfee       0x5c ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001dfee                lock_code_bt_voice
  .text.unlock_code_bt_voice
-                0x000000001001e05a       0x36 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e05a                unlock_code_bt_voice
+                0x000000001001e04a       0x36 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e04a                unlock_code_bt_voice
  .text.lock_code_bt_comm
-                0x000000001001e090       0xae ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e090                lock_code_bt_comm
+                0x000000001001e080       0xae ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e080                lock_code_bt_comm
  .text.unlock_code_bt_comm
-                0x000000001001e13e       0x1e ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e13e                unlock_code_bt_comm
+                0x000000001001e12e       0x1e ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e12e                unlock_code_bt_comm
  .text.unlock_code_eq
-                0x000000001001e15c       0x36 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e15c                unlock_code_eq
+                0x000000001001e14c       0x36 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e14c                unlock_code_eq
  .text.unlock_code_usbdev
-                0x000000001001e192        0x4 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e192                unlock_code_usbdev
+                0x000000001001e182        0x4 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e182                unlock_code_usbdev
  .text.lock_code_eq
-                0x000000001001e196       0x64 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e196                lock_code_eq
+                0x000000001001e186       0x64 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e186                lock_code_eq
  .text.lock_code_stream
-                0x000000001001e1fa       0x5c ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e1fa                lock_code_stream
+                0x000000001001e1ea       0x5c ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e1ea                lock_code_stream
  .text.lock_code_bb_test
-                0x000000001001e256       0x5c ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e256                lock_code_bb_test
+                0x000000001001e246       0x5c ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e246                lock_code_bb_test
  .text.unlock_code_bb_test
-                0x000000001001e2b2       0x36 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e2b2                unlock_code_bb_test
+                0x000000001001e2a2       0x36 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e2a2                unlock_code_bb_test
  .text.unlock_code_stream
-                0x000000001001e2e8        0x4 ..\..\platform\libs\libplatform.a(lock.o)
-                0x000000001001e2e8                unlock_code_stream
+                0x000000001001e2d8        0x4 ..\..\platform\libs\libplatform.a(lock.o)
+                0x000000001001e2d8                unlock_code_stream
  .text.pmu_init
-                0x000000001001e2ec      0x194 ..\..\platform\libs\libplatform.a(power.o)
-                0x000000001001e2ec                pmu_init
+                0x000000001001e2dc      0x194 ..\..\platform\libs\libplatform.a(power.o)
+                0x000000001001e2dc                pmu_init
  .text.sys_get_rand_key
-                0x000000001001e480       0x76 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e480                sys_get_rand_key
+                0x000000001001e470       0x76 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e470                sys_get_rand_key
  .text.xosc_init
-                0x000000001001e4f6       0xd8 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e4f6                xosc_init
+                0x000000001001e4e6       0xd8 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e4e6                xosc_init
  .text.bsp.param
-                0x000000001001e5ce       0x30 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e5ce                bt_save_xosc_cap
+                0x000000001001e5be       0x30 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e5be                bt_save_xosc_cap
  .text.bt_restore_xosc_cap
-                0x000000001001e5fe        0x4 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e5fe                bt_restore_xosc_cap
+                0x000000001001e5ee        0x4 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e5ee                bt_restore_xosc_cap
  .text.bt_get_xosc_cap
-                0x000000001001e602       0x18 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e602                bt_get_xosc_cap
+                0x000000001001e5f2       0x18 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e5f2                bt_get_xosc_cap
  .text.bt_set_xosc_cap
-                0x000000001001e61a       0x2a ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e61a                bt_set_xosc_cap
+                0x000000001001e60a       0x2a ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e60a                bt_set_xosc_cap
  .text.bt_adj_xosc_cap
-                0x000000001001e644       0x58 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e644                bt_adj_xosc_cap
+                0x000000001001e634       0x58 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e634                bt_adj_xosc_cap
  .text.__divdi3
-                0x000000001001e69c       0xca ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e69c                __divdi3
+                0x000000001001e68c       0xca ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e68c                __divdi3
  .text.get_random
-                0x000000001001e766       0x44 ..\..\platform\libs\libplatform.a(sys.o)
-                0x000000001001e766                get_random
- .text.sys_clk  0x000000001001e7aa       0xbe ..\..\platform\libs\libplatform.a(sys_clk.o)
-                0x000000001001e7aa                get_clksel_val
-                0x000000001001e7ba                get_cur_sysclk
-                0x000000001001e7c2                set_audec_clkdiv
-                0x000000001001e7e2                set_sbcec_clkdiv
-                0x000000001001e7e4                sysclk_update_baud
-                0x000000001001e820                set_aec_clkdiv
- *fill*         0x000000001001e868      0x198 
+                0x000000001001e756       0x44 ..\..\platform\libs\libplatform.a(sys.o)
+                0x000000001001e756                get_random
+ .text.sys_clk  0x000000001001e79a       0xbe ..\..\platform\libs\libplatform.a(sys_clk.o)
+                0x000000001001e79a                get_clksel_val
+                0x000000001001e7aa                get_cur_sysclk
+                0x000000001001e7b2                set_audec_clkdiv
+                0x000000001001e7d2                set_sbcec_clkdiv
+                0x000000001001e7d4                sysclk_update_baud
+                0x000000001001e810                set_aec_clkdiv
+ *fill*         0x000000001001e858      0x1a8 
  .text.set_sys_clk_do
                 0x000000001001ea00      0x1fe ..\..\platform\libs\libplatform.a(sys_clk.o)
                 0x000000001001ea00                set_sys_clk_do

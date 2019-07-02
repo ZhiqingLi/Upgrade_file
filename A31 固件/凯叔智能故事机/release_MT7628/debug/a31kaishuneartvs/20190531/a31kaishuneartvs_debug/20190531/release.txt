@@ -1,0 +1,64 @@
+  <default remote="wiimu" revision="master"/>
+firmware/applications
+================================================================
+commit dfa286dc4527164f69a2e5d4855eb321f8d7873a
+Author: Keying <keying.zhao@linkplay.com>
+Date:   Thu May 30 05:55:08 2019 -0400
+
+    [TVS] set kaishu ssid to KS_XXXX
+    
+    Change-Id: I513421dd98e7ecf4dbfec827fda2329bb0686334
+firmware/prebuilt
+================================================================
+commit 12932f6089dcce1f464f3bf686bb13ccdf2716f6
+Author: Deyuan Guo <deyuan.guo@linkplay.com>
+Date:   Tue Jan 8 15:20:08 2019 +0800
+
+    [other] change firmware encrypt tool directory for image encrypt
+    
+    Change-Id: Ic48519a85bfbed6ce1a4d3c6e3fae140ffb49670
+firmware/device_ids
+================================================================
+commit 714c6b0ab608ea7e07ee2865a09b453a863a3ab4
+Author: fawei.wu <fawei.wu@linkplay.com>
+Date:   Wed May 29 16:43:35 2019 +0800
+
+    [other] add device ids for M200MKIII
+    
+    Change-Id: I0bdebd85b0e3ee9349fff012d8d1560d7ad2776e
+firmware/middleware
+================================================================
+commit bee3840a5ea8253173fa43adab811f69f2fbed53
+Author: Keying <keying.zhao@linkplay.com>
+Date:   Wed May 29 23:48:07 2019 -0400
+
+    [TVS] add kaishu private command
+    
+    Change-Id: I9693b1336973992b7c5899d38637a87d7655331f
+firmware/platform-mt-rt288x
+================================================================
+commit 3b2976e4e2a059ad0496af691c2fcbeb903fe70a
+Author: Tao Jiang <tao.jiang@linkplay.com>
+Date:   Mon Apr 29 17:50:17 2019 +0800
+
+    [other] Double memory size for http post
+    
+    Change-Id: I47b48ce3a7dc9f8b46f46703d1b074af1d941961
+firmware/uboot-mt7688
+================================================================
+commit 1cb3006561a843dd07a79891ea4809128a531d0f
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Fri Jun 29 09:52:11 2018 +0800
+
+    [STAB-240] add string Linkplay_debug_version to uboot
+    
+    Change-Id: Ifb11b9e97fa84793f94f4369364f551bb4a1c504
+firmware/kernel-mt7688
+================================================================
+commit cd94604f2f355c77815c22561fb58a6adeb88137
+Author: alex.wang <alex.wang@wiimu.com>
+Date:   Tue Mar 19 19:52:40 2019 +0800
+
+    [wifi jp certifiaction] patch for wifi jp patch
+    
+    Change-Id: I91b459ac582c2fb5436ccc90e0c93371ef93afb8

@@ -9,7 +9,7 @@
         <add key="ext_power_io_sel" value="None" />
         <add key="spk_mute_en" value="True" />
         <add key="spk_mute_io_sel" value="PE0" />
-        <add key="high_mute" value="True" />
+        <add key="high_mute" value="False" />
         <add key="loudspeaker_unmute_delay" value="60" />
         <add key="ampabd_type" value="独立IO电平控制" />
         <add key="ampabd_io_sel" value="PE7" />
@@ -48,7 +48,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="D85" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="41:42:00:00:01:1B" />
+        <add key="bt_addr" value="41:42:00:00:01:1D" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="41:42:FF:FF:FF:FF" />
@@ -237,5 +237,8 @@
         <add key="led_tws_slave_conn_bluepat" value="2" />
         <add key="led_tws_slave_conn_unit" value="2" />
         <add key="led_tws_slave_conn_cycle" value="86" />
+        <add key="powkey_soft_on_off" value="False" />
+        <add key="bt_dis_reconnect_en" value="False" />
+        <add key="bt_dis_reconnect_cnt" value="15" />
     </appSettings>
 </configuration>

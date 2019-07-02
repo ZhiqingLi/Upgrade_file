@@ -10,6 +10,7 @@ typedef struct __attribute__((packed)) _xcfg_cb_t {
     u32 func_aux_en                      : 1;   //AUX输入功能
     u32 func_fmrx_en                     : 1;   //FM收音功能
     u32 powkey_10s_reset                 : 1;   //POWKEY 10s复位系统
+    u32 powkey_soft_on_off               : 1;   //POWKEY 软开关机功能
     u8 ext_power_io_sel;                        //外部POWER控制IO选择: 0:None, 1:PA0, 2:PA1, 3:PA2, 4:PA3, 5:PA4, 6:PA5, 7:PA6, 8:PA7, 9:PB0, 10:PB1, 11:PB2, 12:PB3, 13:PB4, 14:PE0, 15:PE1, 16:PE2, 17:PE3, 18:PE4, 19:PE5, 20:PE6, 21:PE7, 22:PF0, 23:PF1, 24:PF2, 25:PF3, 26:PF4
     u32 spk_mute_en                      : 1;   //功放MUTE功能
     u8 spk_mute_io_sel;                         //功放MUTE控制IO选择: 0:None, 1:PA0, 2:PA1, 3:PA2, 4:PA3, 5:PA4, 6:PA5, 7:PA6, 8:PA7, 9:PB0, 10:PB1, 11:PB2, 12:PB3, 13:PB4, 14:PE0, 15:PE1, 16:PE2, 17:PE3, 18:PE4, 19:PE5, 20:PE6, 21:PE7, 22:PF0, 23:PF1, 24:PF2, 25:PF3, 26:PF4
@@ -66,6 +67,8 @@ typedef struct __attribute__((packed)) _xcfg_cb_t {
     u8 rf_txdbm;                                //DBM
     u8 rf_udf;                                  //UDF
     u8 bt_pwrkey_nsec_discover;                 //PWRKEY开机长按进入配对: 0:不支持, 1:1秒, 2:2秒, 3:3秒, 4:4秒, 5:5秒, 6:6秒, 7:7秒, 8:8秒
+    u32 bt_dis_reconnect_en              : 1;   //蓝牙断开主动回连
+    u8 bt_dis_reconnect_cnt;                    //主动回连时间(单位S)
     u32 bt_2acl_en                       : 1;   //连接两部手机功能
     u32 bt_a2dp_en                       : 1;   //音乐播放功能
     u32 bt_a2dp_vol_ctrl_en              : 1;   //音乐音量同步

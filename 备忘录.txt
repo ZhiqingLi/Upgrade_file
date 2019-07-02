@@ -205,3 +205,4 @@ C:\Program Files\Beyond Compare 4\BCUnrar.dll,Õâ¸öÎÄ¼şÖØÃüÃû»òÕß   Ö±½ÓÉ¾³ı£¬Ôò»
 
        2)É¾³ıÏîÄ¿£º¼ÆËã»ú\HKEY_CURRENT_USER\Software\ScooterSoftware\Beyond Compare 4\CacheId
 
+5.Ê¹ÓÃSource Insight 4.0µÄ¹ı³ÌÖĞ£¬·¢Éú´°¿Ú×ÜÖÃÓÚËùÓĞ´°¿ÚµÄÇ°¶Î£¬¼´ÔÚ×îÇ°£¬³öÏÖÔ­Òò²»Ïê£¬½â¾ö°ì·¨µ¹ÊÇÕÒµ½ÁË£¬°´Á½´ÎF11£¬Êµ¼ÊĞ§¹ûÎªÈ«ÆÁÄ£Ê½ÔÙÍË³ö£¬½â¾ö´ËÎÊÌâ£¡£¡

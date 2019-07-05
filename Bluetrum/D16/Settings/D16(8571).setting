@@ -4,7 +4,7 @@
         <add key="lang_id" value="英文" />
         <add key="func_music_en" value="True" />
         <add key="func_aux_en" value="True" />
-        <add key="func_fmrx_en" value="False" />
+        <add key="func_fmrx_en" value="True" />
         <add key="powkey_10s_reset" value="False" />
         <add key="powkey_soft_on_off" value="False" />
         <add key="ext_power_io_sel" value="None" />
@@ -47,9 +47,9 @@
         <add key="charge_stop_curr" value="30mA" />
         <add key="charge_constant_curr" value="140mA" />
         <add key="charge_trickle_curr" value="30mA" />
-        <add key="bt_name" value="D16" />
+        <add key="bt_name" value="BT SPEAKER" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:BD:16:00:00:1C" />
+        <add key="bt_addr" value="25:BD:16:00:00:1D" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:BD:16:FF:FF:FF" />

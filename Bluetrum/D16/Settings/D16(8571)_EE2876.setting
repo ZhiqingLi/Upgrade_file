@@ -49,7 +49,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="EE2876" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:BD:16:00:00:00" />
+        <add key="bt_addr" value="25:BD:16:00:00:0D" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:BD:16:FF:FF:FF" />
@@ -87,13 +87,13 @@
         <add key="bt_key_discon_en" value="True" />
         <add key="bt_key_discon_mode" value="0" />
         <add key="bt_ch_mic" value="MIC_PF2" />
-        <add key="bt_anl_gain" value="15" />
-        <add key="bt_dig_gain" value="6" />
+        <add key="bt_anl_gain" value="14" />
+        <add key="bt_dig_gain" value="15" />
         <add key="mic_det_iosel" value="0" />
-        <add key="bt_noise_threshoid" value="100" />
+        <add key="bt_noise_threshoid" value="1000" />
         <add key="bt_aec_en" value="True" />
-        <add key="bt_echo_level" value="8" />
-        <add key="bt_far_offset" value="80" />
+        <add key="bt_echo_level" value="10" />
+        <add key="bt_far_offset" value="120" />
         <add key="bt_alc_en" value="False" />
         <add key="music_wav_support" value="True" />
         <add key="music_wma_support" value="False" />

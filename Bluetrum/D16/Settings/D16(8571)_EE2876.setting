@@ -27,8 +27,8 @@
         <add key="sys_init_vol" value="8" />
         <add key="warning_volume" value="12" />
         <add key="osc_both_cap" value="0PF" />
-        <add key="osci_cap" value="29" />
-        <add key="osco_cap" value="29" />
+        <add key="osci_cap" value="28" />
+        <add key="osco_cap" value="28" />
         <add key="vddio_sel" value="10" />
         <add key="eq_dgb_spp_en" value="False" />
         <add key="eq_dgb_uart_en" value="False" />
@@ -49,7 +49,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="EE2876" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:BD:16:00:00:01" />
+        <add key="bt_addr" value="25:BD:16:00:00:09" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:BD:16:FF:FF:FF" />

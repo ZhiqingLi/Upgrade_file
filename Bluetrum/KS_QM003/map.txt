@@ -4257,13 +4257,13 @@ LOAD Output\obj\projects\standard\port\port_update.o
  .text.bthid    0x00000000100122a4       0x18 Output\obj\platform\functions\func_bt_hid.o
                 0x00000000100122a4                is_bthid_mode
  .text.func.idle
-                0x00000000100122bc      0x426 Output\obj\platform\functions\func_idle.o
+                0x00000000100122bc      0x436 Output\obj\platform\functions\func_idle.o
                 0x00000000100122bc                spi1_init
                 0x0000000010012398                get_spi1_recv_buffer_data
                 0x00000000100123da                spi1_send_cmd_to_master
-                0x000000001001246a                func_idle_process
-                0x000000001001264a                func_idle
- *fill*         0x00000000100126e2      0x11e 
+                0x000000001001247a                func_idle_process
+                0x000000001001265a                func_idle
+ *fill*         0x00000000100126f2      0x10e 
  .text.lowpwr.sleep
                 0x0000000010012800      0x6da Output\obj\platform\functions\func_lowpwr.o
                 0x0000000010012800                sleep_process

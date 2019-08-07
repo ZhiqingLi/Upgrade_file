@@ -377,7 +377,7 @@ sbcdec_frame        0x4               ..\..\platform\libs\libplatform.a(music.o)
 pwrkey_detect_flag  0x4               Output\obj\projects\standard\plugin\plugin.o
 user_timer_isr_en   0x4               ..\..\platform\libs\libplatform.a(startup.o)
 unpack_header       0x4               ..\..\platform\libs\libcodecs.a(sbc_dec.o)
-f_idle              0x18              Output\obj\platform\functions\func_idle.o
+f_idle              0x20              Output\obj\platform\functions\func_idle.o
 piano_clk           0x4               ..\..\platform\libs\libplatform.a(piano.o)
 pmq_aupcm           0x4               ..\..\platform\libs\libplatform.a(startup.o)
 psem_aubuf1         0x4               ..\..\platform\libs\libplatform.a(startup.o)
@@ -4224,35 +4224,35 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x00000000100118d6        0x4 Output\obj\platform\bsp\bsp_spp.o
                 0x00000000100118d6                spp_rx_callback
  .text.bsp.sys.init
-                0x00000000100118da      0x3d2 Output\obj\platform\bsp\bsp_sys.o
+                0x00000000100118da      0x3c4 Output\obj\platform\bsp\bsp_sys.o
                 0x0000000010011a30                rtc_init
                 0x0000000010011b0a                bsp_update_init
                 0x0000000010011b74                bsp_sys_init
- .text.bsp.sys  0x0000000010011cac       0x92 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010011cac                bsp_sys_mute
-                0x0000000010011ce0                bsp_sys_unmute
-                0x0000000010011d1e                bsp_clr_mute_sta
+ .text.bsp.sys  0x0000000010011c9e       0x92 Output\obj\platform\bsp\bsp_sys.o
+                0x0000000010011c9e                bsp_sys_mute
+                0x0000000010011cd2                bsp_sys_unmute
+                0x0000000010011d10                bsp_clr_mute_sta
  .text.uart0_mapping_sel
-                0x0000000010011d3e       0x90 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010011d3e                uart0_mapping_sel
+                0x0000000010011d30       0x90 Output\obj\platform\bsp\bsp_sys.o
+                0x0000000010011d30                uart0_mapping_sel
  .text.bsp_get_xosc_xcfg
-                0x0000000010011dce       0x20 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010011dce                bsp_get_xosc_xcfg
+                0x0000000010011dc0       0x20 Output\obj\platform\bsp\bsp_sys.o
+                0x0000000010011dc0                bsp_get_xosc_xcfg
  .text.spiflash_speed_up_en
-                0x0000000010011dee        0x4 Output\obj\platform\bsp\bsp_sys.o
-                0x0000000010011dee                spiflash_speed_up_en
+                0x0000000010011de0        0x4 Output\obj\platform\bsp\bsp_sys.o
+                0x0000000010011de0                spiflash_speed_up_en
  .text.func.msg
-                0x0000000010011df2      0x410 Output\obj\platform\functions\func.o
-                0x0000000010011df2                lowpower_vbat_process
-                0x0000000010011f12                func_message
+                0x0000000010011de4      0x410 Output\obj\platform\functions\func.o
+                0x0000000010011de4                lowpower_vbat_process
+                0x0000000010011f04                func_message
  .text.func.process
-                0x0000000010012202        0xa Output\obj\platform\functions\func.o
-                0x0000000010012202                func_process
- .text.func     0x000000001001220c      0x11e Output\obj\platform\functions\func.o
-                0x000000001001220c                func_enter
-                0x000000001001225c                func_exit
-                0x00000000100122b4                func_run
- *fill*         0x000000001001232a       0x16 
+                0x00000000100121f4        0xa Output\obj\platform\functions\func.o
+                0x00000000100121f4                func_process
+ .text.func     0x00000000100121fe      0x11e Output\obj\platform\functions\func.o
+                0x00000000100121fe                func_enter
+                0x000000001001224e                func_exit
+                0x00000000100122a6                func_run
+ *fill*         0x000000001001231c       0x24 
  .text.func_bt_chkclr_warning
                 0x0000000010012340       0x80 Output\obj\platform\functions\func_bt.o
                 0x0000000010012340                func_bt_chkclr_warning
@@ -4280,13 +4280,13 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x0000000010012790       0x7a Output\obj\platform\functions\func_idle.o
                 0x0000000010012790                timer3_init
  .text.func.idle
-                0x000000001001280a      0x280 Output\obj\platform\functions\func_idle.o
+                0x000000001001280a      0x2e6 Output\obj\platform\functions\func_idle.o
                 0x000000001001280a                func_pwm_wave_process
                 0x000000001001284c                func_water_pump_process
                 0x0000000010012872                func_idle_work_state_get
                 0x000000001001287a                func_idle_process
-                0x00000000100129fc                func_idle
- *fill*         0x0000000010012a8a      0x176 
+                0x0000000010012a3e                func_idle
+ *fill*         0x0000000010012af0      0x110 
  .text.lowpwr.sleep
                 0x0000000010012c00      0x6ce Output\obj\platform\functions\func_lowpwr.o
                 0x0000000010012c00                sleep_process
@@ -11270,7 +11270,7 @@ LOAD Output\obj\projects\standard\port\port_update.o
                 0x0000000000010c00                __irq_stack = .
                 0x0000000000000400                __irq_stack_size = (__irq_stack - __irq_stack_start)
 
-.bss            0x0000000000010c00     0x2bd0
+.bss            0x0000000000010c00     0x2bd8
                 0x0000000000010c00                __bss_start = .
  *(COMMON)
  COMMON         0x0000000000010c00        0x8 Output\obj\platform\bsp\bsp_bt.o
@@ -11289,218 +11289,218 @@ LOAD Output\obj\projects\standard\port\port_update.o
  COMMON         0x0000000000010e64        0x7 Output\obj\platform\functions\func_bt.o
                 0x0000000000010e64                f_bt
  *fill*         0x0000000000010e6b        0x1 
- COMMON         0x0000000000010e6c       0x18 Output\obj\platform\functions\func_idle.o
+ COMMON         0x0000000000010e6c       0x20 Output\obj\platform\functions\func_idle.o
                 0x0000000000010e6c                f_idle
- COMMON         0x0000000000010e84       0x24 Output\obj\platform\functions\sfunc_bt_ring.o
-                0x0000000000010e84                f_bt_ring
- COMMON         0x0000000000010ea8        0xc Output\obj\platform\gui\gui.o
-                0x0000000000010ea8                box_cb
- COMMON         0x0000000000010eb4        0x4 Output\obj\projects\standard\plugin\plugin.o
-                0x0000000000010eb4                pwrkey_detect_flag
- COMMON         0x0000000000010eb8        0xb Output\obj\projects\standard\port\port_ledpwm.o
-                0x0000000000010eb8                cur_rgb
-                0x0000000000010ebc                range
-                0x0000000000010ec0                set_rgb
- *fill*         0x0000000000010ec3        0x1 
- COMMON         0x0000000000010ec4       0x10 ..\..\platform\libs\libplatform.a(sdadc.o)
-                0x0000000000010ec4                sdadc_cb
- COMMON         0x0000000000010ed4        0x8 ..\..\platform\libs\libplatform.a(bt.o)
-                0x0000000000010ed4                bt_thread_res
-                0x0000000000010ed8                bthw_soft_flag
- COMMON         0x0000000000010edc        0x8 ..\..\platform\libs\libplatform.a(bt_aec.o)
-                0x0000000000010edc                temp_far_rptr
-                0x0000000000010ee0                temp_fifo_cnt
- COMMON         0x0000000000010ee4        0xc ..\..\platform\libs\libplatform.a(main.o)
-                0x0000000000010ee4                sys
- COMMON         0x0000000000010ef0        0x4 ..\..\platform\libs\libplatform.a(music.o)
-                0x0000000000010ef0                sbcdec_frame
- COMMON         0x0000000000010ef4        0xc ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x0000000000010ef4                tmr5ms_cnt
-                0x0000000000010ef8                tmr0_counter
-                0x0000000000010efc                ms_tick
- COMMON         0x0000000000010f00       0x50 ..\..\platform\libs\libplatform.a(startup.o)
-                0x0000000000010f00                pmutex_uart
-                0x0000000000010f04                psem_twshw
-                0x0000000000010f08                psem_mschw
-                0x0000000000010f0c                pmq_music
-                0x0000000000010f10                pmutex_dac
-                0x0000000000010f14                pmutex_cm
-                0x0000000000010f18                psem_usb
-                0x0000000000010f1c                psem_btstack
-                0x0000000000010f20                user_timer_isr_en
-                0x0000000000010f24                pmq_aupcm
-                0x0000000000010f28                psem_aubuf1
-                0x0000000000010f2c                pmq_btstack
-                0x0000000000010f30                psem_stm
-                0x0000000000010f34                bt_timer_isr_en
-                0x0000000000010f38                pmutex_pff
-                0x0000000000010f3c                psem_bthw
-                0x0000000000010f40                psem_plc
-                0x0000000000010f44                psem_sd
-                0x0000000000010f48                psem_aubuf
-                0x0000000000010f4c                psem_aec
- COMMON         0x0000000000010f50        0x1 ..\..\platform\libs\libplatform.a(rtc.o)
-                0x0000000000010f50                rtccon4_val
- *fill*         0x0000000000010f51        0x3 
- COMMON         0x0000000000010f54       0x6c ..\..\platform\libs\libplatform.a(sd_api.o)
-                0x0000000000010f54                sdcfg_0
-                0x0000000000010f64                sdfunc_0
-                0x0000000000010f7c                sdcb_0
-                0x0000000000010fb4                sdfunc
-                0x0000000000010fb8                sdcfg
-                0x0000000000010fbc                sd_cb
- COMMON         0x0000000000010fc0        0x4 ..\..\platform\libs\libplatform.a(spiflash.o)
-                0x0000000000010fc0                spi_dummy_byte
- COMMON         0x0000000000010fc4        0x1 ..\..\platform\libs\libplatform.a(key.o)
-                0x0000000000010fc4                pwr_usage_id
- COMMON         0x0000000000010fc5        0x3 ..\..\platform\libs\libplatform.a(power.o)
-                0x0000000000010fc5                vbko_i
-                0x0000000000010fc6                vbko_r
-                0x0000000000010fc7                vbko_t
- COMMON         0x0000000000010fc8        0x8 ..\..\platform\libs\libplatform.a(voltage_trim.o)
-                0x0000000000010fc8                sys_trim
- COMMON         0x0000000000010fd0       0x7c ..\..\platform\libs\libplatform.a(audio_karaok.o)
-                0x0000000000010fd0                iir_coef
-                0x0000000000011008                kara_cb
- COMMON         0x000000000001104c        0x8 ..\..\platform\libs\libplatform.a(bt_rec.o)
-                0x000000000001104c                bt_rec_en
-                0x0000000000011050                bt_sco_rec_en
- COMMON         0x0000000000011054       0x24 ..\..\platform\libs\libbtstack.a(ble_con.o)
-                0x0000000000011054                hwble_env
- COMMON         0x0000000000011078       0x24 ..\..\platform\libs\libbtstack.a(ext_tws.o)
-                0x0000000000011078                tws_ticks_env
- COMMON         0x000000000001109c       0x3c ..\..\platform\libs\libbtstack.a(btstack_api.o)
-                0x000000000001109c                btstack_cb
-                0x00000000000110a4                btstack_st
- COMMON         0x00000000000110d8        0x4 ..\..\platform\libs\libbtstack.a(hci_transport_hcic.o)
-                0x00000000000110d8                p_hci_transport
- COMMON         0x00000000000110dc        0x4 ..\..\platform\libs\libbtstack.a(hid_usage.o)
-                0x00000000000110dc                ts_ctl
- COMMON         0x00000000000110e0        0x4 ..\..\platform\libs\libbtstack.a(hci_sco.o)
-                0x00000000000110e0                sco_far_trig
-                0x00000000000110e2                sco_far_delay
- COMMON         0x00000000000110e4        0x4 ..\..\platform\libs\libcodecs.a(bt_sbc.o)
-                0x00000000000110e4                bt_sbc_flag
- COMMON         0x00000000000110e8        0x4 ..\..\platform\libs\libcodecs.a(sbc_dec.o)
-                0x00000000000110e8                unpack_header
+ COMMON         0x0000000000010e8c       0x24 Output\obj\platform\functions\sfunc_bt_ring.o
+                0x0000000000010e8c                f_bt_ring
+ COMMON         0x0000000000010eb0        0xc Output\obj\platform\gui\gui.o
+                0x0000000000010eb0                box_cb
+ COMMON         0x0000000000010ebc        0x4 Output\obj\projects\standard\plugin\plugin.o
+                0x0000000000010ebc                pwrkey_detect_flag
+ COMMON         0x0000000000010ec0        0xb Output\obj\projects\standard\port\port_ledpwm.o
+                0x0000000000010ec0                cur_rgb
+                0x0000000000010ec4                range
+                0x0000000000010ec8                set_rgb
+ *fill*         0x0000000000010ecb        0x1 
+ COMMON         0x0000000000010ecc       0x10 ..\..\platform\libs\libplatform.a(sdadc.o)
+                0x0000000000010ecc                sdadc_cb
+ COMMON         0x0000000000010edc        0x8 ..\..\platform\libs\libplatform.a(bt.o)
+                0x0000000000010edc                bt_thread_res
+                0x0000000000010ee0                bthw_soft_flag
+ COMMON         0x0000000000010ee4        0x8 ..\..\platform\libs\libplatform.a(bt_aec.o)
+                0x0000000000010ee4                temp_far_rptr
+                0x0000000000010ee8                temp_fifo_cnt
+ COMMON         0x0000000000010eec        0xc ..\..\platform\libs\libplatform.a(main.o)
+                0x0000000000010eec                sys
+ COMMON         0x0000000000010ef8        0x4 ..\..\platform\libs\libplatform.a(music.o)
+                0x0000000000010ef8                sbcdec_frame
+ COMMON         0x0000000000010efc        0xc ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x0000000000010efc                tmr5ms_cnt
+                0x0000000000010f00                tmr0_counter
+                0x0000000000010f04                ms_tick
+ COMMON         0x0000000000010f08       0x50 ..\..\platform\libs\libplatform.a(startup.o)
+                0x0000000000010f08                pmutex_uart
+                0x0000000000010f0c                psem_twshw
+                0x0000000000010f10                psem_mschw
+                0x0000000000010f14                pmq_music
+                0x0000000000010f18                pmutex_dac
+                0x0000000000010f1c                pmutex_cm
+                0x0000000000010f20                psem_usb
+                0x0000000000010f24                psem_btstack
+                0x0000000000010f28                user_timer_isr_en
+                0x0000000000010f2c                pmq_aupcm
+                0x0000000000010f30                psem_aubuf1
+                0x0000000000010f34                pmq_btstack
+                0x0000000000010f38                psem_stm
+                0x0000000000010f3c                bt_timer_isr_en
+                0x0000000000010f40                pmutex_pff
+                0x0000000000010f44                psem_bthw
+                0x0000000000010f48                psem_plc
+                0x0000000000010f4c                psem_sd
+                0x0000000000010f50                psem_aubuf
+                0x0000000000010f54                psem_aec
+ COMMON         0x0000000000010f58        0x1 ..\..\platform\libs\libplatform.a(rtc.o)
+                0x0000000000010f58                rtccon4_val
+ *fill*         0x0000000000010f59        0x3 
+ COMMON         0x0000000000010f5c       0x6c ..\..\platform\libs\libplatform.a(sd_api.o)
+                0x0000000000010f5c                sdcfg_0
+                0x0000000000010f6c                sdfunc_0
+                0x0000000000010f84                sdcb_0
+                0x0000000000010fbc                sdfunc
+                0x0000000000010fc0                sdcfg
+                0x0000000000010fc4                sd_cb
+ COMMON         0x0000000000010fc8        0x4 ..\..\platform\libs\libplatform.a(spiflash.o)
+                0x0000000000010fc8                spi_dummy_byte
+ COMMON         0x0000000000010fcc        0x1 ..\..\platform\libs\libplatform.a(key.o)
+                0x0000000000010fcc                pwr_usage_id
+ COMMON         0x0000000000010fcd        0x3 ..\..\platform\libs\libplatform.a(power.o)
+                0x0000000000010fcd                vbko_i
+                0x0000000000010fce                vbko_r
+                0x0000000000010fcf                vbko_t
+ COMMON         0x0000000000010fd0        0x8 ..\..\platform\libs\libplatform.a(voltage_trim.o)
+                0x0000000000010fd0                sys_trim
+ COMMON         0x0000000000010fd8       0x7c ..\..\platform\libs\libplatform.a(audio_karaok.o)
+                0x0000000000010fd8                iir_coef
+                0x0000000000011010                kara_cb
+ COMMON         0x0000000000011054        0x8 ..\..\platform\libs\libplatform.a(bt_rec.o)
+                0x0000000000011054                bt_rec_en
+                0x0000000000011058                bt_sco_rec_en
+ COMMON         0x000000000001105c       0x24 ..\..\platform\libs\libbtstack.a(ble_con.o)
+                0x000000000001105c                hwble_env
+ COMMON         0x0000000000011080       0x24 ..\..\platform\libs\libbtstack.a(ext_tws.o)
+                0x0000000000011080                tws_ticks_env
+ COMMON         0x00000000000110a4       0x3c ..\..\platform\libs\libbtstack.a(btstack_api.o)
+                0x00000000000110a4                btstack_cb
+                0x00000000000110ac                btstack_st
+ COMMON         0x00000000000110e0        0x4 ..\..\platform\libs\libbtstack.a(hci_transport_hcic.o)
+                0x00000000000110e0                p_hci_transport
+ COMMON         0x00000000000110e4        0x4 ..\..\platform\libs\libbtstack.a(hid_usage.o)
+                0x00000000000110e4                ts_ctl
+ COMMON         0x00000000000110e8        0x4 ..\..\platform\libs\libbtstack.a(hci_sco.o)
+                0x00000000000110e8                sco_far_trig
+                0x00000000000110ea                sco_far_delay
+ COMMON         0x00000000000110ec        0x4 ..\..\platform\libs\libcodecs.a(bt_sbc.o)
+                0x00000000000110ec                bt_sbc_flag
+ COMMON         0x00000000000110f0        0x4 ..\..\platform\libs\libcodecs.a(sbc_dec.o)
+                0x00000000000110f0                unpack_header
  *(.bss*)
- .bss           0x00000000000110ec        0xc Output\obj\platform\bsp\bsp_eq.o
- .bss           0x00000000000110f8       0x24 ..\..\platform\libs\libplatform.a(dac_dnr.o)
- .bss           0x000000000001111c      0x11c ..\..\platform\libs\libplatform.a(cm.o)
- .bss.irq_tbl   0x0000000000011238       0x68 ..\..\platform\libs\libplatform.a(interrupt.o)
-                0x0000000000011238                tbl_irq_vector
-                0x000000000001129c                irq_mask
- .bss           0x00000000000112a0       0x28 ..\..\platform\libs\libplatform.a(startup.o)
- .bss           0x00000000000112c8       0x58 ..\..\platform\libs\libplatform.a(lock.o)
- .bss.bb.conn   0x0000000000011320      0x1a8 ..\..\platform\libs\libbtstack.a(ext_init.o)
- .bss           0x00000000000114c8      0x5ec ..\..\platform\libs\libbtstack.a(btstack_memory.o)
- .bss           0x0000000000011ab4       0x3e ..\..\platform\libs\libbtstack.a(btstack_link_key_db.o)
- *fill*         0x0000000000011af2        0x2 
- .bss           0x0000000000011af4        0xc ..\..\platform\libs\libbtstack.a(ext_tsco.o)
+ .bss           0x00000000000110f4        0xc Output\obj\platform\bsp\bsp_eq.o
+ .bss           0x0000000000011100       0x24 ..\..\platform\libs\libplatform.a(dac_dnr.o)
+ .bss           0x0000000000011124      0x11c ..\..\platform\libs\libplatform.a(cm.o)
+ .bss.irq_tbl   0x0000000000011240       0x68 ..\..\platform\libs\libplatform.a(interrupt.o)
+                0x0000000000011240                tbl_irq_vector
+                0x00000000000112a4                irq_mask
+ .bss           0x00000000000112a8       0x28 ..\..\platform\libs\libplatform.a(startup.o)
+ .bss           0x00000000000112d0       0x58 ..\..\platform\libs\libplatform.a(lock.o)
+ .bss.bb.conn   0x0000000000011328      0x1a8 ..\..\platform\libs\libbtstack.a(ext_init.o)
+ .bss           0x00000000000114d0      0x5ec ..\..\platform\libs\libbtstack.a(btstack_memory.o)
+ .bss           0x0000000000011abc       0x3e ..\..\platform\libs\libbtstack.a(btstack_link_key_db.o)
+ *fill*         0x0000000000011afa        0x2 
+ .bss           0x0000000000011afc        0xc ..\..\platform\libs\libbtstack.a(ext_tsco.o)
  *(.sbss*)
- .sbss          0x0000000000011b00        0x2 Output\obj\platform\bsp\bsp_key.o
- .sbss          0x0000000000011b02        0x1 Output\obj\platform\functions\func_idle.o
- *fill*         0x0000000000011b03        0x1 
- .sbss          0x0000000000011b04        0x8 Output\obj\projects\standard\port\port_key.o
- .sbss          0x0000000000011b0c        0x1 Output\obj\projects\standard\port\port_led.o
- *fill*         0x0000000000011b0d        0x3 
- .sbss          0x0000000000011b10       0x14 Output\obj\projects\standard\port\port_ledpwm.o
-                0x0000000000011b1c                gui_timer
-                0x0000000000011b20                rgb_timer
- .sbss          0x0000000000011b24        0x8 Output\obj\projects\standard\port\port_linein.o
- .sbss          0x0000000000011b2c       0x14 Output\obj\projects\standard\port\port_mute.o
- .sbss          0x0000000000011b40        0x8 Output\obj\projects\standard\port\port_sd.o
- .sbss          0x0000000000011b48        0xc ..\..\platform\libs\libplatform.a(audio_eq.o)
- .sbss          0x0000000000011b54        0x8 ..\..\platform\libs\libplatform.a(dac.o)
- .sbss          0x0000000000011b5c        0x1 ..\..\platform\libs\libplatform.a(bt_aec.o)
-                0x0000000000011b5c                aec_isr_type
- .sbss          0x0000000000011b5d        0x2 ..\..\platform\libs\libplatform.a(bt_alc.o)
- *fill*         0x0000000000011b5f        0x1 
- .sbss          0x0000000000011b60        0x4 ..\..\platform\libs\libplatform.a(bt_sco.o)
-                0x0000000000011b60                bt_voice_cfg
- .sbss          0x0000000000011b64        0x4 ..\..\platform\libs\libplatform.a(device.o)
- .sbss          0x0000000000011b68        0x4 ..\..\platform\libs\libplatform.a(music_res.o)
-                0x0000000000011b68                spiflash_ex_read
- .sbss          0x0000000000011b6c        0x4 ..\..\platform\libs\libplatform.a(startup.o)
- .sbss          0x0000000000011b70        0x4 ..\..\platform\libs\libbtstack.a(bb.o)
- .sbss          0x0000000000011b74        0x8 ..\..\platform\libs\libbtstack.a(btstack_api.o)
- .sbss          0x0000000000011b7c        0x8 ..\..\platform\libs\libbtstack.a(btstack_main.o)
- .sbss          0x0000000000011b84        0x4 ..\..\platform\libs\libbtstack.a(hci_transport_hcic.o)
- .sbss          0x0000000000011b88       0x20 ..\..\platform\libs\libbtstack.a(btstack_memory.o)
- .sbss          0x0000000000011ba8        0x4 ..\..\platform\libs\libbtstack.a(a2dp_play.o)
- .sbss          0x0000000000011bac       0x10 ..\..\platform\libs\libbtstack.a(hfp_hf.o)
- .sbss          0x0000000000011bbc       0x12 ..\..\platform\libs\libbtstack.a(rfcomm.o)
- *fill*         0x0000000000011bce        0x2 
- .sbss          0x0000000000011bd0        0x4 ..\..\platform\libs\libbtstack.a(sdp_server.o)
- .sbss          0x0000000000011bd4        0x4 ..\..\platform\libs\libbtstack.a(hci.o)
- .sbss          0x0000000000011bd8        0x2 ..\..\platform\libs\libbtstack.a(hci_sco.o)
-                0x0000000000011bd8                sco_far_rate
- *fill*         0x0000000000011bda        0x2 
- .sbss          0x0000000000011bdc        0x8 ..\..\platform\libs\libdrivers.a(pff.o)
- .sbss          0x0000000000011be4        0x7 ..\..\platform\libs\libcodecs.a(bt_sbc.o)
+ .sbss          0x0000000000011b08        0x2 Output\obj\platform\bsp\bsp_key.o
+ .sbss          0x0000000000011b0a        0x1 Output\obj\platform\functions\func_idle.o
+ *fill*         0x0000000000011b0b        0x1 
+ .sbss          0x0000000000011b0c        0x8 Output\obj\projects\standard\port\port_key.o
+ .sbss          0x0000000000011b14        0x1 Output\obj\projects\standard\port\port_led.o
+ *fill*         0x0000000000011b15        0x3 
+ .sbss          0x0000000000011b18       0x14 Output\obj\projects\standard\port\port_ledpwm.o
+                0x0000000000011b24                gui_timer
+                0x0000000000011b28                rgb_timer
+ .sbss          0x0000000000011b2c        0x8 Output\obj\projects\standard\port\port_linein.o
+ .sbss          0x0000000000011b34       0x14 Output\obj\projects\standard\port\port_mute.o
+ .sbss          0x0000000000011b48        0x8 Output\obj\projects\standard\port\port_sd.o
+ .sbss          0x0000000000011b50        0xc ..\..\platform\libs\libplatform.a(audio_eq.o)
+ .sbss          0x0000000000011b5c        0x8 ..\..\platform\libs\libplatform.a(dac.o)
+ .sbss          0x0000000000011b64        0x1 ..\..\platform\libs\libplatform.a(bt_aec.o)
+                0x0000000000011b64                aec_isr_type
+ .sbss          0x0000000000011b65        0x2 ..\..\platform\libs\libplatform.a(bt_alc.o)
+ *fill*         0x0000000000011b67        0x1 
+ .sbss          0x0000000000011b68        0x4 ..\..\platform\libs\libplatform.a(bt_sco.o)
+                0x0000000000011b68                bt_voice_cfg
+ .sbss          0x0000000000011b6c        0x4 ..\..\platform\libs\libplatform.a(device.o)
+ .sbss          0x0000000000011b70        0x4 ..\..\platform\libs\libplatform.a(music_res.o)
+                0x0000000000011b70                spiflash_ex_read
+ .sbss          0x0000000000011b74        0x4 ..\..\platform\libs\libplatform.a(startup.o)
+ .sbss          0x0000000000011b78        0x4 ..\..\platform\libs\libbtstack.a(bb.o)
+ .sbss          0x0000000000011b7c        0x8 ..\..\platform\libs\libbtstack.a(btstack_api.o)
+ .sbss          0x0000000000011b84        0x8 ..\..\platform\libs\libbtstack.a(btstack_main.o)
+ .sbss          0x0000000000011b8c        0x4 ..\..\platform\libs\libbtstack.a(hci_transport_hcic.o)
+ .sbss          0x0000000000011b90       0x20 ..\..\platform\libs\libbtstack.a(btstack_memory.o)
+ .sbss          0x0000000000011bb0        0x4 ..\..\platform\libs\libbtstack.a(a2dp_play.o)
+ .sbss          0x0000000000011bb4       0x10 ..\..\platform\libs\libbtstack.a(hfp_hf.o)
+ .sbss          0x0000000000011bc4       0x12 ..\..\platform\libs\libbtstack.a(rfcomm.o)
+ *fill*         0x0000000000011bd6        0x2 
+ .sbss          0x0000000000011bd8        0x4 ..\..\platform\libs\libbtstack.a(sdp_server.o)
+ .sbss          0x0000000000011bdc        0x4 ..\..\platform\libs\libbtstack.a(hci.o)
+ .sbss          0x0000000000011be0        0x2 ..\..\platform\libs\libbtstack.a(hci_sco.o)
+                0x0000000000011be0                sco_far_rate
+ *fill*         0x0000000000011be2        0x2 
+ .sbss          0x0000000000011be4        0x8 ..\..\platform\libs\libdrivers.a(pff.o)
+ .sbss          0x0000000000011bec        0x7 ..\..\platform\libs\libcodecs.a(bt_sbc.o)
  *(.buf*)
- *fill*         0x0000000000011beb        0x1 
- .buf.aux       0x0000000000011bec        0x1 Output\obj\platform\bsp\bsp_aux.o
- *fill*         0x0000000000011bed        0x3 
- .buf.key.cb    0x0000000000011bf0       0x14 Output\obj\platform\bsp\bsp_key.o
-                0x0000000000011bf0                adc_cb
- .buf.led       0x0000000000011c04       0x14 Output\obj\platform\bsp\bsp_led.o
-                0x0000000000011c04                led_cb
-                0x0000000000011c0c                port2led_sta
-                0x0000000000011c10                led_bak
+ *fill*         0x0000000000011bf3        0x1 
+ .buf.aux       0x0000000000011bf4        0x1 Output\obj\platform\bsp\bsp_aux.o
+ *fill*         0x0000000000011bf5        0x3 
+ .buf.key.cb    0x0000000000011bf8       0x14 Output\obj\platform\bsp\bsp_key.o
+                0x0000000000011bf8                adc_cb
+ .buf.led       0x0000000000011c0c       0x14 Output\obj\platform\bsp\bsp_led.o
+                0x0000000000011c0c                led_cb
+                0x0000000000011c14                port2led_sta
+                0x0000000000011c18                led_bak
  .buf.bsp.sys_cb
-                0x0000000000011c18       0x3c Output\obj\platform\bsp\bsp_sys.o
-                0x0000000000011c18                sys_cb
- .buf.func_cb   0x0000000000011c54        0xc Output\obj\platform\functions\func.o
-                0x0000000000011c54                func_cb
- .buf.fmrx.cb   0x0000000000011c60       0x24 Output\obj\platform\functions\func_fmrx.o
-                0x0000000000011c60                fmrx_cb
+                0x0000000000011c20       0x3c Output\obj\platform\bsp\bsp_sys.o
+                0x0000000000011c20                sys_cb
+ .buf.func_cb   0x0000000000011c5c        0xc Output\obj\platform\functions\func.o
+                0x0000000000011c5c                func_cb
+ .buf.fmrx.cb   0x0000000000011c68       0x24 Output\obj\platform\functions\func_fmrx.o
+                0x0000000000011c68                fmrx_cb
  .buf.func.music
-                0x0000000000011c84       0x20 Output\obj\platform\functions\func_music.o
-                0x0000000000011c84                f_msc
- .buf.led       0x0000000000011ca4       0x28 Output\obj\projects\standard\port\port_led.o
-                0x0000000000011ca4                bled_gpio
-                0x0000000000011cac                bled_func
-                0x0000000000011cb8                rled_gpio
-                0x0000000000011cc0                rled_func
- .buf.dac       0x0000000000011ccc       0x18 ..\..\platform\libs\libplatform.a(dac.o)
-                0x0000000000011ccc                dac_cb
+                0x0000000000011c8c       0x20 Output\obj\platform\functions\func_music.o
+                0x0000000000011c8c                f_msc
+ .buf.led       0x0000000000011cac       0x28 Output\obj\projects\standard\port\port_led.o
+                0x0000000000011cac                bled_gpio
+                0x0000000000011cb4                bled_func
+                0x0000000000011cc0                rled_gpio
+                0x0000000000011cc8                rled_func
+ .buf.dac       0x0000000000011cd4       0x18 ..\..\platform\libs\libplatform.a(dac.o)
+                0x0000000000011cd4                dac_cb
  .buf.device.cb
-                0x0000000000011ce4       0x18 ..\..\platform\libs\libplatform.a(device.o)
-                0x0000000000011ce4                dev_cb
- .buf.music.cb  0x0000000000011cfc        0x8 ..\..\platform\libs\libplatform.a(music.o)
-                0x0000000000011cfc                music_cb
- .buf.spires    0x0000000000011d04       0x14 ..\..\platform\libs\libplatform.a(music_res.o)
-                0x0000000000011d04                spires_cb
- .buf.stm       0x0000000000011d18       0x24 ..\..\platform\libs\libplatform.a(stream.o)
-                0x0000000000011d18                stm_cb
-                0x0000000000011d30                stm_avio
- .buf.key.cb    0x0000000000011d3c        0xa ..\..\platform\libs\libplatform.a(key.o)
- *fill*         0x0000000000011d46        0x2 
- .buf.diskio    0x0000000000011d48       0x14 ..\..\platform\libs\libdrivers.a(diskio.o)
-                0x0000000000011d48                dsk_cb
-                0x0000000000011d4c                diskio
- .buf.usb       0x0000000000011d5c       0x74 ..\..\platform\libs\libdrivers.a(usb_host_manage.o)
-                0x0000000000011d5c                uhe_0
-                0x0000000000011d84                uhs_0
- .buf.usb.ctrl  0x0000000000011dd0       0x40 ..\..\platform\libs\libdrivers.a(usb_comm.o)
-                0x0000000000011dd0                ep0_buf
+                0x0000000000011cec       0x18 ..\..\platform\libs\libplatform.a(device.o)
+                0x0000000000011cec                dev_cb
+ .buf.music.cb  0x0000000000011d04        0x8 ..\..\platform\libs\libplatform.a(music.o)
+                0x0000000000011d04                music_cb
+ .buf.spires    0x0000000000011d0c       0x14 ..\..\platform\libs\libplatform.a(music_res.o)
+                0x0000000000011d0c                spires_cb
+ .buf.stm       0x0000000000011d20       0x24 ..\..\platform\libs\libplatform.a(stream.o)
+                0x0000000000011d20                stm_cb
+                0x0000000000011d38                stm_avio
+ .buf.key.cb    0x0000000000011d44        0xa ..\..\platform\libs\libplatform.a(key.o)
+ *fill*         0x0000000000011d4e        0x2 
+ .buf.diskio    0x0000000000011d50       0x14 ..\..\platform\libs\libdrivers.a(diskio.o)
+                0x0000000000011d50                dsk_cb
+                0x0000000000011d54                diskio
+ .buf.usb       0x0000000000011d64       0x74 ..\..\platform\libs\libdrivers.a(usb_host_manage.o)
+                0x0000000000011d64                uhe_0
+                0x0000000000011d8c                uhs_0
+ .buf.usb.ctrl  0x0000000000011dd8       0x40 ..\..\platform\libs\libdrivers.a(usb_comm.o)
+                0x0000000000011dd8                ep0_buf
  .buf.usbchk.cb
-                0x0000000000011e10        0x2 ..\..\platform\libs\libdrivers.a(usb_detect.o)
-                0x0000000000011e10                usbchk_cb
- *fill*         0x0000000000011e12        0x2 
- .buf.deccom    0x0000000000011e14       0x1c ..\..\platform\libs\libcodecs.a(codecs_com.o)
-                0x0000000000011e14                codec_info
-                0x0000000000011e18                qskip
+                0x0000000000011e18        0x2 ..\..\platform\libs\libdrivers.a(usb_detect.o)
+                0x0000000000011e18                usbchk_cb
+ *fill*         0x0000000000011e1a        0x2 
+ .buf.deccom    0x0000000000011e1c       0x1c ..\..\platform\libs\libcodecs.a(codecs_com.o)
+                0x0000000000011e1c                codec_info
+                0x0000000000011e20                qskip
  *(.dac_obuf)
- .dac_obuf      0x0000000000011e30     0x1340 ..\..\platform\libs\libplatform.a(dac.o)
-                0x0000000000011e30                dac_obuf
-                0x0000000000012f30                dac_src1_obuf
+ .dac_obuf      0x0000000000011e38     0x1340 ..\..\platform\libs\libplatform.a(dac.o)
+                0x0000000000011e38                dac_obuf
+                0x0000000000012f38                dac_src1_obuf
  *(.btstack_hci.buf)
  .btstack_hci.buf
-                0x0000000000013170      0x660 ..\..\platform\libs\libbtstack.a(hci.o)
-                0x00000000000137d0                __bss_end = .
-                0x0000000000002bd0                __bss_size = (__bss_end - __bss_start)
+                0x0000000000013178      0x660 ..\..\platform\libs\libbtstack.a(hci.o)
+                0x00000000000137d8                __bss_end = .
+                0x0000000000002bd8                __bss_size = (__bss_end - __bss_start)
 
 .heap           0x000000000001d800     0x2800
  *(.mem_heap)

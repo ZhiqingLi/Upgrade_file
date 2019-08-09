@@ -23,8 +23,8 @@
         <add key="lpwr_warning_period" value="60" />
         <add key="lpwr_warning_count" value="3" />
         <add key="vol_max" value="16级音量" />
-        <add key="sys_init_vol" value="5" />
-        <add key="warning_volume" value="15" />
+        <add key="sys_init_vol" value="6" />
+        <add key="warning_volume" value="6" />
         <add key="osc_both_cap" value="0PF" />
         <add key="osci_cap" value="23" />
         <add key="osco_cap" value="23" />

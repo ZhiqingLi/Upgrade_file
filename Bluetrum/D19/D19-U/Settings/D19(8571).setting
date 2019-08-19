@@ -4,7 +4,7 @@
         <add key="lang_id" value="英文" />
         <add key="func_music_en" value="True" />
         <add key="func_aux_en" value="True" />
-        <add key="func_fmrx_en" value="True" />
+        <add key="func_fmrx_en" value="False" />
         <add key="powkey_10s_reset" value="False" />
         <add key="powkey_soft_on_off" value="False" />
         <add key="ext_power_io_sel" value="None" />
@@ -25,10 +25,10 @@
         <add key="lpwr_warning_count" value="3" />
         <add key="vol_max" value="16级音量" />
         <add key="sys_init_vol" value="8" />
-        <add key="warning_volume" value="6" />
+        <add key="warning_volume" value="8" />
         <add key="osc_both_cap" value="0PF" />
-        <add key="osci_cap" value="23" />
-        <add key="osco_cap" value="23" />
+        <add key="osci_cap" value="28" />
+        <add key="osco_cap" value="28" />
         <add key="vddio_sel" value="10" />
         <add key="eq_dgb_spp_en" value="False" />
         <add key="eq_dgb_uart_en" value="False" />
@@ -49,7 +49,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="BT SPEAKER" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:BD:19:00:00:16" />
+        <add key="bt_addr" value="25:BD:19:00:00:25" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:BD:19:FF:FF:FF" />
@@ -85,13 +85,13 @@
         <add key="le_name" value="LE-Remoter" />
         <add key="dac_off_for_conn" value="False" />
         <add key="bt_ch_mic" value="MIC_PF2" />
-        <add key="bt_anl_gain" value="15" />
-        <add key="bt_dig_gain" value="6" />
+        <add key="bt_anl_gain" value="10" />
+        <add key="bt_dig_gain" value="18" />
         <add key="mic_det_iosel" value="0" />
-        <add key="bt_noise_threshoid" value="100" />
+        <add key="bt_noise_threshoid" value="120" />
         <add key="bt_aec_en" value="True" />
         <add key="bt_echo_level" value="8" />
-        <add key="bt_far_offset" value="80" />
+        <add key="bt_far_offset" value="120" />
         <add key="bt_alc_en" value="False" />
         <add key="music_wav_support" value="True" />
         <add key="music_wma_support" value="False" />
@@ -239,7 +239,7 @@
         <add key="led_lowbat_bluepat" value="0" />
         <add key="led_lowbat_unit" value="4" />
         <add key="led_lowbat_cycle" value="0" />
-        <add key="RESOURCE_DIR_SEL" value="D16" />
+        <add key="RESOURCE_DIR_SEL" value="D19" />
         <add key="bt_key_discon_en" value="True" />
         <add key="bt_key_discon_mode" value="0" />
     </appSettings>

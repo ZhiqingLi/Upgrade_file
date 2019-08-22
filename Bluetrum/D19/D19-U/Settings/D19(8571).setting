@@ -49,7 +49,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="BT SPEAKER" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="25:BD:19:00:00:25" />
+        <add key="bt_addr" value="25:BD:19:00:00:29" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="25:BD:19:FF:FF:FF" />

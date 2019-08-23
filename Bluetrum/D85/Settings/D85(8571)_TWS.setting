@@ -15,7 +15,7 @@
         <add key="ampabd_io_sel" value="PE7" />
         <add key="ampabd_level" value="True" />
         <add key="earphone_det_iosel" value="0" />
-        <add key="sys_sleep_time" value="30" />
+        <add key="sys_sleep_time" value="180" />
         <add key="sys_off_time" value="0" />
         <add key="lowpower_warning_en" value="True" />
         <add key="lpwr_warning_vbat" value="3.3V" />
@@ -54,7 +54,7 @@
         <add key="bt_addr_end" value="41:42:FF:FF:FF:FF" />
         <add key="bt_txpwr" value="+2DBM" />
         <add key="bt_rf_param" value="255" />
-        <add key="bt_2acl_en" value="True" />
+        <add key="bt_2acl_en" value="False" />
         <add key="bt_a2dp_en" value="True" />
         <add key="bt_a2dp_vol_ctrl_en" value="True" />
         <add key="bt_sco_en" value="True" />
@@ -240,5 +240,11 @@
         <add key="powkey_soft_on_off" value="False" />
         <add key="bt_dis_reconnect_en" value="False" />
         <add key="bt_dis_reconnect_cnt" value="15" />
+        <add key="reset_factory_en" value="True" />
+        <add key="reset_key_num" value="MODE" />
+        <add key="reset_key_mode" value="长按5秒" />
+        <add key="ext_power_io_en" value="False" />
+        <add key="bt_key_discon_en" value="True" />
+        <add key="bt_key_discon_mode" value="1" />
     </appSettings>
 </configuration>

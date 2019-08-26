@@ -93,7 +93,7 @@ typedef struct __attribute__((packed)) _xcfg_cb_t {
     char le_name[32];                           //BLE名称
     u32 dac_off_for_conn                 : 1;   //蓝牙连接时关闭DAC
     u32 bt_key_discon_en                 : 1;   //按键断开蓝连接功能
-    u32 bt_key_discon_mode               : 2;   //断开连接按键选择: MODE键无其他模式时断开: 0, 长按PLAY键断开: 1, 长按HSF键断开: 2
+    u32 bt_key_discon_mode               : 3;   //断开连接按键选择: MODE键无其他模式时断开: 0, MODE键双击断开: 1, 长按PLAY键断开: 2, 长按HSF键断开: 3
     u8 bt_ch_mic;                               //MIC通路选择: 0:MIC_PF2, 1:MIC_PF5
     u8 bt_anl_gain;                             //MIC模拟增益
     u8 bt_dig_gain;                             //MIC数字增益(0~3DB)

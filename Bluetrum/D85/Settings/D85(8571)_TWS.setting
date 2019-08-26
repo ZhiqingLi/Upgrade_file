@@ -9,7 +9,7 @@
         <add key="ext_power_io_sel" value="None" />
         <add key="spk_mute_en" value="True" />
         <add key="spk_mute_io_sel" value="PE0" />
-        <add key="high_mute" value="False" />
+        <add key="high_mute" value="True" />
         <add key="loudspeaker_unmute_delay" value="60" />
         <add key="ampabd_type" value="独立IO电平控制" />
         <add key="ampabd_io_sel" value="PE7" />
@@ -48,7 +48,7 @@
         <add key="charge_trickle_curr" value="30mA" />
         <add key="bt_name" value="D85" />
         <add key="bt_addr_mode" value="单次递增" />
-        <add key="bt_addr" value="41:42:00:00:01:1D" />
+        <add key="bt_addr" value="41:42:00:00:01:26" />
         <add key="bt_addr_start" value="41:42:00:00:00:00" />
         <add key="bt_addr_step" value="00:00:00:00:00:01" />
         <add key="bt_addr_end" value="41:42:FF:FF:FF:FF" />
@@ -66,8 +66,8 @@
         <add key="bt_hid_discon_default_en" value="False" />
         <add key="func_bthid_en" value="False" />
         <add key="bthid_name" value="BT-Photo" />
-        <add key="bt_tws_en" value="False" />
-        <add key="bt_tws_pair_mode" value="2" />
+        <add key="bt_tws_en" value="True" />
+        <add key="bt_tws_pair_mode" value="1" />
         <add key="bt_tws_lr_mode" value="4" />
         <add key="tws_sel_left_gpio_sel" value="0" />
         <add key="ble_en" value="False" />

@@ -130,7 +130,7 @@
         <add key="led_lowbat_unit" value="6" />
         <add key="led_lowbat_cycle" value="0" />
         <add key="btbox_name_cmp_en" value="True" />
-        <add key="btbox_name" value="MG-C1" />
+        <add key="btbox_name" value="FLY_B" />
         <add key="control_bt_test_box_rf_power_en" value="True" />
         <add key="dig_gain" value="30" />
         <add key="pa_gain" value="7" />

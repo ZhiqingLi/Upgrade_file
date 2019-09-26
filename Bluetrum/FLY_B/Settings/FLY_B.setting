@@ -130,8 +130,8 @@
         <add key="pwrkey_config_en" value="True" />
         <add key="pwrkey_num0" value="MODE/POWER" />
         <add key="pwrkey_num1" value="MODE/POWER" />
-        <add key="pwrkey_num2" value="MODE/POWER" />
-        <add key="pwrkey_num3" value="MODE/POWER" />
+        <add key="pwrkey_num2" value="None" />
+        <add key="pwrkey_num3" value="None" />
         <add key="pwrkey_num4" value="None" />
         <add key="adkey_config_en" value="False" />
         <add key="adkey1_num0" value="P/P" />

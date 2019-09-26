@@ -276,21 +276,21 @@ typedef struct __attribute__((packed)) _xcfg_cb_t {
         u8 bluepat;
         u8 unit;
         u8 cycle;
-    } led_usb_sd_play;                          //通话闪灯控制
+    } led_usb_sd_play;                          //USB/SD播放闪灯控制
     u32 led_auxplay_config_en            : 1;   //AUX播放状态配置LED
     struct __attribute__((packed)) {
         u8 redpat;
         u8 bluepat;
         u8 unit;
         u8 cycle;
-    } led_aux_playing;                          //通话闪灯控制
+    } led_aux_playing;                          //AUX播放闪灯控制
     u32 led_fmplay_config_en             : 1;   //FM播放状态配置LED
     struct __attribute__((packed)) {
         u8 redpat;
         u8 bluepat;
         u8 unit;
         u8 cycle;
-    } led_fm_playing;                           //通话闪灯控制
+    } led_fm_playing;                           //FM播放闪灯控制
     u32 led_lowbat_config_en             : 1;   //低电状态配置LED
     struct __attribute__((packed)) {
         u8 redpat;
